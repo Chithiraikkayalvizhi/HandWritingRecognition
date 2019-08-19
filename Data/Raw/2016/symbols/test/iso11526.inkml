@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">IVC_2014_F517_E408_11526</annotation>
+<trace id="3">
+440 218
+</trace>
+<trace id="2">
+399 223, 400 234, 401 236, 401 238, 401 240
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+</traceGroup>
+</ink>

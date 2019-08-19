@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">IVC_2014_F519_E439_12085</annotation>
+<trace id="33">
+1135 212
+</trace>
+<trace id="32">
+1108 259, 1111 255, 1114 251, 1117 247, 1120 243, 1123 238, 1126 234, 1128 231, 1130 228, 1132 225, 1133 224, 1133 223, 1134 223, 1134 225, 1133 227, 1133 230, 1132 233, 1131 236, 1130 240, 1130 244, 1129 246, 1129 249, 1129 250
+</trace>
+<trace id="35">
+1159 245, 1171 223, 1172 222, 1173 221, 1173 220, 1173 221, 1173 222, 1172 225, 1171 229, 1170 234, 1168 239, 1166 244, 1165 249, 1164 255, 1162 260, 1160 265, 1159 269, 1157 273, 1155 275, 1154 277, 1152 278, 1150 279, 1148 279, 1146 279, 1144 278, 1143 276, 1143 274, 1142 271, 1143 268, 1145 265, 1147 262, 1149 259, 1153 257, 1157 254, 1161 252, 1164 250, 1167 248, 1168 248
+</trace>
+<trace id="34">
+1137 252, 1137 256, 1137 260, 1137 261
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="32"/>
+		<traceView traceDataRef="33"/>
+		<traceView traceDataRef="34"/>
+		<traceView traceDataRef="35"/>
+	</traceGroup>
+</traceGroup>
+</ink>

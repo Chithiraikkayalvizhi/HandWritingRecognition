@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">2013_IVC_CROHME_F120_E297_4896</annotation>
+<trace id="18">
+684 224, 697 218, 701 217, 705 217, 708 216, 712 215, 715 215, 718 214, 721 214, 724 214, 726 213, 728 213, 729 213, 731 212, 732 212
+</trace>
+<trace id="17">
+681 175, 704 170, 707 170, 711 169, 714 169, 717 169, 720 168, 724 168, 726 167, 728 167, 729 167
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="18"/>
+		<traceView traceDataRef="17"/>
+	</traceGroup>
+</traceGroup>
+</ink>

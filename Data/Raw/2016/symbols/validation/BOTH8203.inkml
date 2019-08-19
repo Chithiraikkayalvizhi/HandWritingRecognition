@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">2013_IVC_CROHME_F126_E471_8203</annotation>
+<trace id="19">
+954 239, 974 241, 978 241, 981 241, 985 241, 989 241, 993 240, 996 240, 999 240, 1001 240, 1002 239
+</trace>
+<trace id="18">
+975 217, 977 232, 978 234, 978 238, 978 241, 979 244, 979 246, 979 248, 979 250, 979 252, 979 253, 979 254, 979 255, 979 254
+</trace>
+<trace id="17">
+905 202, 906 215, 906 217, 906 219, 906 221, 906 222, 906 223, 906 224, 905 223, 905 222, 905 220, 905 218, 905 216, 906 214, 907 212, 908 210, 909 208, 912 206, 914 204, 917 202, 919 201, 920 201, 922 201, 924 201, 925 203, 926 205, 927 207, 928 209, 929 211, 929 213, 929 215, 930 217, 930 219, 930 220, 930 221, 930 222
+</trace>
+<trace id="16">
+891 230, 874 238, 874 241, 874 244, 875 247, 876 250, 878 252, 880 255, 882 256, 885 258, 889 258, 893 259, 896 259, 901 259, 906 258, 911 257, 912 257
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="16"/>
+		<traceView traceDataRef="17"/>
+		<traceView traceDataRef="18"/>
+		<traceView traceDataRef="19"/>
+	</traceGroup>
+</traceGroup>
+</ink>
