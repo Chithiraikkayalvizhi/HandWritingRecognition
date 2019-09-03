@@ -7,6 +7,7 @@ def parse_inkml(inkml_file_abs_path:str) -> ({}, str):
         root = tree.getroot()
         doc_namespace = "{http://www.w3.org/2003/InkML}"
         gt = ''
+        ui = ''
         'Stores traces_all with their corresponding id'
 	    #MM: multiple all integers and floats by 10K
         traces_all_list = [{'id': trace_tag.get('id'),
@@ -22,6 +23,10 @@ def parse_inkml(inkml_file_abs_path:str) -> ({}, str):
             if "truth" == annotation.attrib['type']:
                 gt = annotation.text
                 break
+        for annotation in annotations:
+            if "UI" == annotation.attrib['type']:
+                ui = annotation.text
+                break
 
         'convert in dictionary traces_all  by id to make searching for references faster'
         traces_all = {}
@@ -29,7 +34,7 @@ def parse_inkml(inkml_file_abs_path:str) -> ({}, str):
             traces_all[t["id"]] = t["coords"]
         #print("traces_alllalalalal",traces_all)
         #traces_all.sort(key=lambda trace_dict: int(trace_dict['id']))
-        return traces_all, gt
+        return traces_all, gt, ui
     else:
         print('File ', inkml_file_abs_path, ' does not exist !')
         return {}, ''
@@ -42,7 +47,7 @@ def ValidateFilesInDirectory(rootdir:str, range:int):
         file = open(rootdir + '/' + filename, mode='r', encoding="utf-8")
         try:
             file_content_string = file.read()
-            root = etree.fromstring(file_content_string)
+            etree.fromstring(file_content_string)
             print(filename , " : is valid XML")
             valid += 1
         except Exception as e:
@@ -64,7 +69,7 @@ def FixInkmlFilesInDirectory(rootdir:str, range:int):
         file_content_string = file.read()
         try:
             root = etree.fromstring(file_content_string)
-        except Exception as e:
+        except Exception as _e:
             file_content_string = FixInkmlFileIDAttributes(file_content_string)
             print(filename, " : Needs xml:id fix")       
             try:
@@ -98,7 +103,7 @@ def FixInkmlFileIDAttributes(filecontents:str) -> (str):
 
 def InkmlFillGroundTruth(root:etree._Element, groundTruth:str, forceUpdate:bool= False) -> (etree._Element, bool):
     isChanged = False
-    for i, children in enumerate(root):
+    for _i, children in enumerate(root):
         if (children.tag == '{http://www.w3.org/2003/InkML}annotation' and 'type' in children.attrib and children.attrib['type'] == 'truth'):
             if(children.text is None or forceUpdate):
                 children.text = groundTruth
