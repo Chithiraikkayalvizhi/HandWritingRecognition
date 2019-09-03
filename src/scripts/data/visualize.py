@@ -11,7 +11,7 @@ image_list = []
 goundtruth_list = []
 
 for filename in os.listdir(rootdir)[:range_files]:
-    traces, truth = parser.parse_inkml(rootdir + '/' + filename)
+    traces, truth, *rest = parser.parse_inkml(rootdir + '/' + filename)
     selected_tr = convertor.get_traces_data(traces)
     im = convertor.convert_to_imgs(selected_tr, 50)
     im = ndimage.gaussian_filter(im, sigma=(.5, .5), order=0)

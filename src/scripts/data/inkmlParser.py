@@ -1,7 +1,7 @@
 import os
 from lxml import etree
 
-def parse_inkml(inkml_file_abs_path:str) -> ({}, str):
+def parse_inkml(inkml_file_abs_path:str) -> ({}, str, str):
     if inkml_file_abs_path.endswith('.inkml'):
         tree = etree.parse(inkml_file_abs_path)
         root = tree.getroot()
@@ -37,7 +37,7 @@ def parse_inkml(inkml_file_abs_path:str) -> ({}, str):
         return traces_all, gt, ui
     else:
         print('File ', inkml_file_abs_path, ' does not exist !')
-        return {}, ''
+        return {}, '', ''
 
 def ValidateFilesInDirectory(rootdir:str, range:int):
     valid = 0
