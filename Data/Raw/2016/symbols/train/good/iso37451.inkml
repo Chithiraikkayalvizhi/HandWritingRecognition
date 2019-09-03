@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\lim</annotation>
 <annotation type="UI">2011_KME1_w11_e22_37451</annotation>
 <trace id="1">
 3746 2568, 3746 2568, 3749 2589, 3749 2606, 3751 2627, 3752 2654, 3752 2684, 3755 2721, 3754 2755, 3757 2793, 3758 2823, 3760 2855, 3761 2877, 3763 2895, 3763 2895, 3777 2913, 3777 2913, 3789 2889
@@ -17,8 +17,8 @@
 3801 2387, 3801 2387, 3790 2372, 3790 2372, 3790 2372, 3778 2354, 3778 2354, 3778 2354, 3778 2354, 3778 2354
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pi</annotation>
 <annotation type="UI">IVC_2014_F501_E14_6237</annotation>
 <trace id="13">
 274 216, 275 214, 275 213, 276 212, 277 213, 277 215, 277 219, 276 224, 277 231, 278 242, 279 246, 280 248, 280 250, 280 249
@@ -14,8 +14,8 @@
 286 215, 287 217, 287 234, 288 239, 289 243, 290 245, 291 246
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="13"/>
 		<traceView traceDataRef="15"/>
 		<traceView traceDataRef="14"/>

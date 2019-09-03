@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sqrt</annotation>
 <annotation type="UI">2013_RIT_CROHME_rit_42180_3_10962</annotation>
 <trace id="3">
 276 200, 280 200, 351 197, 360 197, 369 197, 377 197, 385 196, 404 195, 413 194, 422 194, 432 193, 441 192, 451 191, 460 190, 469 189, 488 188, 497 188, 507 188, 526 186, 535 185, 543 185, 553 184, 560 184, 569 184, 578 183, 586 183, 594 183, 601 183, 609 182, 616 182, 624 182, 631 182, 637 182, 650 182, 657 182, 662 182, 667 182, 672 183, 681 183, 685 184, 687 184, 689 184, 690 184
@@ -11,8 +11,8 @@
 276 203, 277 206, 278 308, 278 315, 278 323, 278 328, 279 332, 279 334, 279 337, 279 338, 279 336, 278 334, 277 332, 274 329, 273 327, 268 323, 264 321, 262 319, 260 319, 258 319, 255 319, 252 319, 249 319, 248 319, 246 320, 244 322, 242 328, 239 332, 238 338, 237 341, 236 343, 235 346, 235 347, 235 348
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="3"/>
 		<traceView traceDataRef="4"/>
 	</traceGroup>

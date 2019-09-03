@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">junk</annotation>
 <annotation type="UI">93_caue_5366</annotation>
 <trace id="33">
 996 123, 996 124, 997 114, 997 115, 997 116, 997 117, 997 118, 997 119, 997 120, 997 121, 997 122, 997 123, 997 124, 997 123, 997 122, 996 122, 996 121, 996 119, 996 118, 995 117, 995 115, 995 114, 995 112, 995 110, 995 108, 995 106, 996 104, 996 103, 998 99, 999 98, 1000 96, 1002 96, 1003 95, 1006 95, 1008 95, 1010 96, 1011 96, 1012 96, 1013 97
@@ -17,8 +17,8 @@
 1016 124, 1017 124, 1023 123, 1026 123, 1027 123, 1026 123, 1025 123, 1024 123, 1023 123, 1022 123, 1021 123, 1020 123, 1019 123, 1020 122, 1021 122, 1022 122, 1024 121, 1025 121, 1026 121, 1027 121, 1026 121, 1026 120, 1025 119, 1024 117, 1024 116, 1023 114, 1023 113, 1024 111, 1024 110, 1024 108, 1025 107, 1025 106, 1026 106
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="32"/>
 		<traceView traceDataRef="33"/>
 		<traceView traceDataRef="34"/>

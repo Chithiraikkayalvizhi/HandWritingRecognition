@@ -2,14 +2,14 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">y</annotation>
 <annotation type="UI">2013_RIT_CROHME_rit_42160_3_10600</annotation>
 <trace id="10">
 515 319, 511 322, 541 363, 544 358, 545 354, 547 349, 550 339, 551 323, 551 324, 551 327, 553 337, 554 342, 559 366, 560 372, 561 392, 561 398, 560 412, 552 428, 543 436, 528 440, 509 436, 492 427, 480 417, 477 410, 480 398, 489 391
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="10"/>
 	</traceGroup>
 </traceGroup>

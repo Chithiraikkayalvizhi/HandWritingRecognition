@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\lim</annotation>
 <annotation type="UI">2011_KAIST_Data2_3_sub_46_48885</annotation>
 <trace id="1">
 2755 2734, 2788 2716, 2807 2707, 2827 2700, 2847 2700, 2879 2700, 2904 2709
@@ -17,8 +17,8 @@
 2892 2978, 2883 3041, 2877 3080, 2874 3123, 2874 3168, 2863 3220, 2856 3269, 2847 3321, 2838 3369, 2827 3412, 2818 3445, 2807 3475
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

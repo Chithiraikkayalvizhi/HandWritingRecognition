@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">79_Nina_6488</annotation>
 <trace id="33">
 720 304, 720 303, 720 302, 720 301, 720 300, 720 299, 720 298, 719 297, 718 297, 717 297, 716 297, 714 297, 713 297, 711 297, 710 298, 709 299, 708 299, 707 301, 706 302, 706 303, 706 304, 707 306, 708 308, 709 309, 710 311, 712 312, 714 314, 715 315, 717 317, 718 318, 719 319, 719 321, 719 322, 718 323, 717 324, 715 325, 714 326, 712 327, 710 328, 709 328, 708 328, 707 328, 706 328, 706 327
@@ -20,8 +20,8 @@
 720 304
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="33"/>
 		<traceView traceDataRef="25"/>
 		<traceView traceDataRef="26"/>

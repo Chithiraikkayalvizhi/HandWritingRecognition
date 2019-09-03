@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">2014_RIT_CROHME_8_18122</annotation>
 <trace id="5">
 337 260, 333 260, 328 260, 320 260, 312 262, 306 264, 303 265, 300 267, 299 269, 299 270, 307 273, 316 273, 323 275, 330 277, 334 278, 337 281, 338 284, 335 288, 326 293, 318 295, 311 297, 306 297, 301 297, 299 296, 299 293
@@ -14,8 +14,8 @@
 368 268, 366 273, 366 276, 366 281, 366 284, 366 287
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="7"/>
 		<traceView traceDataRef="6"/>

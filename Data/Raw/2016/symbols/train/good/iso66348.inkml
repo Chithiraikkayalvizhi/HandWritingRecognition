@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\leq</annotation>
 <annotation type="UI">MfrDB0069_66348</annotation>
 <trace id="8">
 517 359 1840484, 518 359 1840500, 519 359 1840500, 521 359 1840515, 523 360 1840515, 527 360 1840531, 529 361 1840531, 534 362 1840546, 541 363 1840546, 546 364 1840562, 551 364 1840562, 555 365 1840578, 560 365 1840578, 562 366 1840593, 564 366 1840593, 565 367 1840609
@@ -14,8 +14,8 @@
 521 339 1839158, 521 338 1839236, 522 338 1839236, 523 335 1839252, 525 333 1839252, 527 331 1839267, 529 329 1839267, 534 327 1839283, 539 324 1839298, 542 321 1839298, 545 319 1839314, 549 318 1839314, 551 317 1839330, 553 315 1839330, 555 315 1839345, 556 314 1839345, 558 313 1839361, 559 313 1839361, 560 313 1839376
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="8"/>
 		<traceView traceDataRef="7"/>
 		<traceView traceDataRef="6"/>

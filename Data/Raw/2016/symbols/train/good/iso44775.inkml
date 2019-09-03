@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\log</annotation>
 <annotation type="UI">2011_KAIST_Data2_13_sub_33_44775</annotation>
 <trace id="11">
 8775 992, 8768 975, 8768 975, 8768 975, 8756 991, 8752 1022, 8748 1065, 8746 1132, 8740 1207, 8735 1306, 8703 1542, 8686 1669, 8656 1897, 8642 1998, 8629 2085, 8619 2155, 8618 2208, 8618 2240, 8618 2261, 8618 2261, 8633 2239, 8647 2206
@@ -14,8 +14,8 @@
 9200 1881, 9200 1881, 9179 1879, 9169 1880, 9169 1880, 9149 1901, 9140 1926, 9130 1951, 9124 1990, 9116 2065, 9118 2105, 9126 2144, 9139 2176, 9184 2209, 9235 2215, 9262 2213, 9288 2200, 9324 2164, 9338 2122, 9338 2101, 9332 2079, 9324 2056, 9306 2035, 9291 2015, 9268 1999, 9248 1983, 9233 1976, 9215 1961, 9208 1946, 9210 1936, 9216 1925
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="11"/>
 		<traceView traceDataRef="13"/>
 		<traceView traceDataRef="12"/>

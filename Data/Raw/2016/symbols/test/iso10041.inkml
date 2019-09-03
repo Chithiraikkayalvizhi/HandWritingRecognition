@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\neq</annotation>
 <annotation type="UI">IVC_2014_F513_E318_10041</annotation>
 <trace id="3">
 579 159, 610 158, 617 158, 624 158, 630 158, 635 159, 639 160, 640 161
@@ -14,8 +14,8 @@
 567 198, 598 195, 609 194, 622 194, 634 193, 638 193
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="3"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="4"/>

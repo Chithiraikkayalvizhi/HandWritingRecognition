@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">IVC_2014_F516_E398_11394</annotation>
 <trace id="19">
 888 76, 872 83, 870 87, 867 91, 865 96, 864 100, 864 104, 864 107, 864 110, 865 112, 867 114, 870 116, 873 117, 874 117
@@ -14,8 +14,8 @@
 970 78, 952 70, 949 70, 946 72, 942 72, 939 74, 936 76, 934 79, 933 82, 932 84, 932 87, 932 90, 933 92, 935 95, 937 97, 939 99, 941 102, 943 103, 944 105, 945 106, 947 107, 947 109, 947 110, 947 111, 946 113, 944 114, 943 114, 940 115, 937 116, 934 116, 931 117, 928 118, 928 119
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="19"/>
 		<traceView traceDataRef="20"/>
 		<traceView traceDataRef="21"/>

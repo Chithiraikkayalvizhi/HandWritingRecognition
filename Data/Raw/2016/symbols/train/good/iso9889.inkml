@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">=</annotation>
 <annotation type="UI">96_mijail_9889</annotation>
 <trace id="9">
 597 108, 595 109, 605 108, 623 107, 626 106, 629 106, 631 106, 633 106, 634 107, 635 107, 637 107, 638 107, 637 107, 636 107, 635 107
@@ -11,8 +11,8 @@
 597 123, 596 124, 600 124, 605 124, 620 123, 625 123, 627 123, 629 123, 630 123, 632 123, 633 123, 634 123, 635 123, 636 122
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="9"/>
 		<traceView traceDataRef="10"/>
 	</traceGroup>

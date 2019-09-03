@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\log</annotation>
 <annotation type="UI">IVC_2014_F517_E407_11503</annotation>
 <trace id="13">
 744 262, 745 268, 745 267, 746 265, 747 264, 748 263, 749 261, 749 260, 750 259, 750 258, 750 257, 750 255, 750 254, 750 253, 750 252, 749 251, 748 250, 747 249, 746 249, 745 249, 743 249, 741 249, 740 249, 738 250, 737 252, 737 253, 736 255, 736 257, 736 258
@@ -14,8 +14,8 @@
 749 260, 752 275, 752 277, 751 280, 751 282, 750 284, 749 286, 748 287, 746 289, 745 290, 744 291, 742 292, 741 293, 740 293, 738 294, 737 294, 736 294, 735 294, 735 293, 735 292, 735 291, 735 290, 735 287, 736 285, 737 281, 739 278, 741 274, 743 271, 745 268, 747 265, 750 263, 752 261, 754 258, 755 257
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="13"/>
 		<traceView traceDataRef="12"/>
 		<traceView traceDataRef="14"/>

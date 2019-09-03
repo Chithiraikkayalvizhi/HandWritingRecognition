@@ -2,14 +2,14 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">c</annotation>
 <annotation type="UI">MfrDB1432_69030</annotation>
 <trace id="14">
 802 144 112912, 800 142 112934, 795 142 112977, 791 142 113026, 783 147 113041, 780 170 113074, 792 190 113107, 817 196 113140, 839 188 113173, 846 184 113208
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="14"/>
 	</traceGroup>
 </traceGroup>

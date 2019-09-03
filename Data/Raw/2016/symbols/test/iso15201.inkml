@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">2014_RIT_CROHME_218_15201</annotation>
 <trace id="18">
 205 280, 202 281, 197 282, 191 285, 186 288, 181 291, 178 293, 176 295, 176 297, 178 298, 187 300, 195 302, 203 305, 206 308, 207 313, 207 318, 201 323, 192 326, 183 328, 178 329
@@ -14,8 +14,8 @@
 82 292, 81 290, 76 290, 66 291, 57 295, 52 298, 49 304, 48 313, 48 321, 54 327, 63 331, 73 332, 86 332
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="18"/>
 		<traceView traceDataRef="17"/>
 		<traceView traceDataRef="16"/>

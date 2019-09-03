@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">p</annotation>
 <annotation type="UI">MfrDB2948_78481</annotation>
 <trace id="33">
 780 281 454961, 781 281 455020, 782 280 455040, 783 280 455060, 784 280 455079, 785 279 455099, 786 279 455109, 787 279 455129, 788 279 455139, 789 279 455149, 790 279 455158, 791 279 455168, 792 279 455188, 793 279 455208, 794 278 455218, 795 278 455228
@@ -14,8 +14,8 @@
 786 279 452694, 787 280 452763, 787 282 452773, 788 284 452783, 788 287 452793, 789 291 452803, 789 294 452813, 789 298 452823, 789 301 452832, 789 305 452842, 789 308 452852, 789 312 452862, 788 315 452872, 788 319 452882, 788 322 452892, 788 326 452902, 788 330 452912, 788 335 452921, 788 339 452931, 788 342 452941, 788 345 452951, 788 346 452961, 787 345 453001
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="33"/>
 		<traceView traceDataRef="32"/>
 		<traceView traceDataRef="31"/>

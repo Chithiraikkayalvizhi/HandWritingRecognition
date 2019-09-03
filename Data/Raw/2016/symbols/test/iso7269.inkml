@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\leq</annotation>
 <annotation type="UI">IVC_2014_F503_E28_7269</annotation>
 <trace id="5">
 451 148, 450 148, 443 150, 439 152, 436 153, 423 158, 419 160, 414 162, 411 163, 408 165, 405 166, 403 167, 402 168, 402 167, 402 168, 408 170, 411 171, 415 172, 418 174, 422 175, 427 177, 432 179, 437 181, 442 183, 447 185, 452 186, 457 188, 461 189, 465 190, 467 191, 470 192, 471 192
@@ -11,8 +11,8 @@
 408 181, 419 184, 422 185, 425 187, 429 188, 432 189, 435 191, 437 192, 440 193, 442 195, 444 196, 446 197
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="6"/>
 	</traceGroup>

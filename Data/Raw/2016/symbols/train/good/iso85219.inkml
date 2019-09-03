@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pi</annotation>
 <annotation type="UI">MfrDB3542_85219</annotation>
 <trace id="3">
 334 152 386039, 341 150 386086, 346 150 386098, 355 150 386107, 364 150 386119, 371 150 386122, 377 150 386133, 385 150 386143, 392 150 386146, 400 150 386157, 407 150 386169, 415 150 386171, 418 150 386185, 421 150 386188, 424 150 386201, 425 149 386223
@@ -14,8 +14,8 @@
 366 150 387255, 366 155 387342, 366 159 387352, 366 165 387362, 366 168 387373, 366 175 387384, 366 180 387396, 366 183 387405, 366 187 387417, 366 189 387426, 366 190 387446
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="3"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="4"/>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\Delta</annotation>
 <annotation type="UI">2013_IVC_CROHME_F124_E394_6821</annotation>
 <trace id="1">
 324 88, 328 93, 329 95, 331 99, 332 103, 334 107, 335 112, 337 118, 340 124, 342 130, 345 136, 347 143, 350 149, 352 155, 355 162, 357 168, 361 175, 364 181, 368 188, 371 195, 375 201, 379 208, 382 215, 387 222, 390 227, 393 233, 395 238, 398 242, 401 246, 403 250, 405 253, 407 256, 409 258, 410 260
@@ -14,8 +14,8 @@
 231 254, 239 254, 242 255, 245 255, 248 256, 252 257, 256 257, 261 258, 265 258, 270 259, 276 259, 281 259, 287 259, 293 260, 299 260, 305 260, 312 261, 319 261, 326 261, 332 262, 339 262, 345 262, 352 262, 359 262, 365 263, 370 263, 376 263, 381 264, 386 264, 390 264, 393 265, 396 265, 399 265, 402 265, 404 265, 406 266, 408 266, 410 266, 411 266, 413 266, 414 266, 415 266, 416 266
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="2"/>

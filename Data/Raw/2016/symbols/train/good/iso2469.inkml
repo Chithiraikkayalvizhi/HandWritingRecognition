@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pi</annotation>
 <annotation type="UI">111_Nina_2469</annotation>
 <trace id="48">
 889 232, 888 234, 887 237, 886 238, 886 241, 885 243, 884 246, 883 249, 882 252, 881 254, 880 257, 880 259, 880 261, 880 263, 879 263, 879 264, 880 264, 880 263
@@ -23,8 +23,8 @@
 891 238, 894 235, 894 236, 895 237, 895 238, 895 240, 895 243, 895 245, 895 248, 894 251, 894 254, 894 256, 893 258, 893 260, 893 262, 892 263
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="48"/>
 		<traceView traceDataRef="49"/>
 		<traceView traceDataRef="46"/>

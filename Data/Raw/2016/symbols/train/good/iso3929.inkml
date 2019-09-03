@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">|</annotation>
 <annotation type="UI">126_fujita_3929</annotation>
 <trace id="1">
 229 62, 231 75, 232 78, 233 82, 234 86, 235 90, 236 93, 236 97, 237 101, 238 104, 238 108, 238 111, 239 114, 239 117, 240 120, 240 123, 240 126, 241 128, 241 131, 242 133, 242 135, 243 137, 243 139, 243 141, 244 142, 244 143, 244 144, 245 145, 245 146, 246 146
@@ -11,8 +11,8 @@
 229 62
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 	</traceGroup>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">IVC_2014_F501_E8_6624</annotation>
 <trace id="5">
 159 245, 160 242, 161 241, 161 240, 161 239, 156 240, 153 241, 151 243, 150 246, 151 248, 152 250, 155 252, 158 255, 162 257, 164 260, 166 262, 166 264, 165 266, 161 267, 159 266, 156 260, 157 258, 160 256, 163 254, 166 254, 169 254, 171 256, 173 258, 174 261, 175 264, 175 267, 175 269
@@ -14,8 +14,8 @@
 172 240, 172 241
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="7"/>
 		<traceView traceDataRef="6"/>

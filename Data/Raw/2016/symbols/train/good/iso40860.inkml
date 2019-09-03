@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\log</annotation>
 <annotation type="UI">2011_KME2_w27_e74_40860</annotation>
 <trace id="1">
 4957 5382, 4957 5364, 4957 5364, 4949 5351, 4949 5351, 4949 5351, 4949 5351, 4958 5391, 4963 5446, 4969 5523, 4973 5609, 4975 5687, 4979 5748, 4980 5788, 4983 5799, 4983 5799, 4981 5810, 4981 5810
@@ -14,8 +14,8 @@
 5138 5642, 5117 5670, 5109 5685, 5100 5708, 5091 5735, 5088 5765, 5087 5792, 5092 5821, 5101 5844, 5116 5866, 5134 5881, 5156 5891, 5181 5896, 5208 5896, 5235 5889, 5261 5878, 5285 5865, 5305 5845, 5321 5825, 5331 5801, 5336 5777, 5334 5751, 5325 5728, 5310 5704, 5292 5684, 5272 5665, 5249 5651, 5227 5639, 5206 5629, 5185 5623, 5168 5619, 5154 5617, 5137 5621, 5137 5621
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="3"/>
 		<traceView traceDataRef="2"/>

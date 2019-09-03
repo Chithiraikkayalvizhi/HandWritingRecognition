@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pi</annotation>
 <annotation type="UI">"200923-1556-38.ink"_60909</annotation>
 <trace id="5">
 12346 7639, 12334 7656, 12332 7676, 12323 7707, 12315 7735, 12306 7774, 12290 7807, 12278 7841, 12264 7875, 12248 7906, 12234 7931, 12217 7953, 12208 7973, 12197 7984, 12192 7990, 12192 7998, 12194 7987
@@ -14,8 +14,8 @@
 12558 7558, 12556 7553, 12553 7555, 12556 7572, 12550 7586, 12553 7620, 12544 7653, 12539 7704, 12522 7751, 12514 7810, 12497 7869, 12486 7925, 12469 7978, 12455 8023, 12441 8062, 12435 8096, 12430 8121, 12424 8138, 12418 8149, 12413 8149, 12416 8152, 12413 8144, 12410 8130, 12413 8118, 12413 8099
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="4"/>
 		<traceView traceDataRef="6"/>

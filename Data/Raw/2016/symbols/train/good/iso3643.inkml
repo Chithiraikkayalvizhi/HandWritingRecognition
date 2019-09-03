@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sum</annotation>
 <annotation type="UI">124_Nina_3643</annotation>
 <trace id="1">
 218 73, 216 73, 215 74, 216 74, 217 74, 218 74, 219 74, 221 73, 222 73, 224 73, 226 73, 229 73, 232 72, 235 72, 238 72, 241 72, 245 72, 248 72, 252 72, 255 72, 258 72, 261 72, 263 73, 265 74, 267 75, 268 76, 269 77, 270 79, 270 80, 271 81, 271 83, 272 84, 272 85, 272 87, 272 88, 271 89
@@ -17,8 +17,8 @@
 220 79
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

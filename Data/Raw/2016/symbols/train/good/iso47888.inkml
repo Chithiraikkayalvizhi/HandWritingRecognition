@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\times</annotation>
 <annotation type="UI">2011_KAIST_Data2_23_sub_88_47888</annotation>
 <trace id="3">
 8158 4102, 8216 4139, 8259 4159, 8307 4184, 8365 4213, 8426 4242, 8499 4270, 8566 4297, 8645 4315
@@ -11,8 +11,8 @@
 8481 3829, 8435 3906, 8404 3953, 8374 4005, 8345 4066, 8318 4125, 8291 4179, 8266 4229, 8241 4272, 8225 4301
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="3"/>
 		<traceView traceDataRef="2"/>
 	</traceGroup>

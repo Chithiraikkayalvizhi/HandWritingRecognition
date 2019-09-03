@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">MfrDB1900_72786</annotation>
 <trace id="1">
 205 134 4502922, 205 135 4502983, 205 136 4503001, 205 139 4503021, 205 140 4503042, 205 141 4503061, 205 143 4503084, 205 144 4503104, 205 145 4503154, 205 146 4503204, 205 147 4503223, 205 148 4503251, 205 149 4503289, 205 150 4503312, 205 151 4503332, 205 152 4503354, 205 153 4503386, 205 154 4503406, 205 155 4503436, 205 156 4503461, 205 157 4503486, 205 158 4503509, 206 160 4503534
@@ -17,8 +17,8 @@
 204 124 4507310
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

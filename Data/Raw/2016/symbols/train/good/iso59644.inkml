@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">"200923-1553-12.ink"_59644</annotation>
 <trace id="5">
 12576 4678, 12565 4675, 12547 4665, 12531 4662, 12515 4660, 12500 4665, 12482 4677, 12461 4698, 12437 4734, 12413 4778, 12390 4838, 12367 4906, 12352 4982, 12341 5057, 12341 5131, 12355 5197, 12379 5251, 12414 5289, 12466 5319, 12515 5326, 12579 5331
@@ -14,8 +14,8 @@
 12931 4969, 12912 4995, 12899 5036, 12882 5073, 12876 5113, 12873 5154, 12882 5190, 12903 5219, 12932 5237, 12971 5244, 13013 5243, 13056 5232, 13098 5217, 13134 5195, 13167 5168, 13191 5136, 13208 5103, 13215 5064, 13215 5027, 13208 4990, 13193 4955, 13169 4921, 13138 4893, 13106 4869, 13069 4849, 13034 4835, 12998 4826, 12966 4820, 12937 4809, 12921 4807, 12908 4796
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="7"/>
 		<traceView traceDataRef="6"/>

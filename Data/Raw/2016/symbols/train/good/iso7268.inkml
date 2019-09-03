@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">k</annotation>
 <annotation type="UI">81_silas_7268</annotation>
 <trace id="31">
 369 247, 368 247, 378 257, 381 259, 382 260, 383 260, 384 260, 385 261, 386 261
@@ -14,8 +14,8 @@
 369 237, 369 234, 369 262, 369 263, 370 264, 371 264, 371 263, 371 262
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="31"/>
 		<traceView traceDataRef="30"/>
 		<traceView traceDataRef="29"/>

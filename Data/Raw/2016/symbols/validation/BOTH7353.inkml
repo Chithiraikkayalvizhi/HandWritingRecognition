@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">F</annotation>
 <annotation type="UI">2013_IVC_CROHME_F124_E420_7353</annotation>
 <trace id="1">
 38 247, 48 247, 51 247, 55 247, 58 247, 62 246, 67 246, 68 246
@@ -11,8 +11,8 @@
 151 77, 137 79, 133 80, 128 81, 122 82, 116 84, 111 85, 106 86, 101 87, 95 87, 91 88, 87 89, 83 89, 79 89, 75 90, 72 90, 69 90, 67 91, 65 91, 64 91, 63 91, 62 91, 61 91, 61 92, 61 93, 61 94, 61 96, 62 98, 62 101, 63 104, 63 107, 64 110, 64 114, 65 118, 65 122, 66 127, 66 132, 66 137, 66 144, 66 150, 66 157, 65 163, 65 171, 64 179, 63 187, 63 195, 62 203, 62 211, 61 219, 61 226, 60 234, 60 241, 59 248, 59 255, 58 262, 57 268, 57 274, 56 280, 55 285, 55 290, 54 294, 54 298, 54 302, 54 305, 54 307, 54 309, 54 311
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 	</traceGroup>

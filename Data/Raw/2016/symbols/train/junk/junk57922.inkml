@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">junk</annotation>
 <annotation type="UI">"200926-1617-72.ink"_57922</annotation>
 <trace id="9">
 12318 10073, 12315 10093, 12306 10118, 12304 10160, 12287 10202, 12281 10263, 12262 10319, 12248 10387, 12228 10448, 12211 10507, 12197 10560, 12180 10602, 12178 10639, 12175 10658, 12178 10667, 12186 10664
@@ -11,8 +11,8 @@
 12626 10403, 12631 10406, 12637 10403, 12659 10389, 12698 10389, 12746 10381, 12808 10378, 12875 10373, 12950 10370, 13020 10364, 13088 10361, 13144 10361, 13180 10353, 13208 10345, 13222 10342, 13222 10328, 13217 10317
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="9"/>
 		<traceView traceDataRef="10"/>
 	</traceGroup>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">2013_IVC_CROHME_F118_E242_4539</annotation>
 <trace id="1">
 512 178
@@ -14,8 +14,8 @@
 525 182, 530 195, 531 197, 531 200, 532 202, 533 204, 533 205, 534 206, 534 207, 535 207, 535 206, 536 204, 538 202, 539 200, 541 197, 542 195, 543 193, 544 192, 546 191, 547 191, 548 191, 550 191, 551 193, 552 195, 553 196, 553 199, 554 201, 555 203, 556 205, 557 207, 557 209, 558 210, 559 212, 560 213, 560 214
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="2"/>

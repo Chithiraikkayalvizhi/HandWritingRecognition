@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">+</annotation>
 <annotation type="UI">MfrDB3157_81307</annotation>
 <trace id="9">
 213 163 652628, 213 164 652646, 213 165 652656, 213 166 652666, 213 169 652677, 213 172 652687, 214 175 652697, 215 177 652708, 215 178 652718, 216 178 652790, 217 178 652800
@@ -11,8 +11,8 @@
 207 170 652247, 209 171 652285, 210 171 652296, 211 171 652306, 213 171 652316, 214 171 652337, 214 170 652347, 215 170 652357, 216 170 652368, 217 170 652388, 218 170 652409, 219 170 652419
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="9"/>
 		<traceView traceDataRef="8"/>
 	</traceGroup>

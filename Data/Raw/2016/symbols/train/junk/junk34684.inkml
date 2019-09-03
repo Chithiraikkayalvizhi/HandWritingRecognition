@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">junk</annotation>
 <annotation type="UI">2011_KAIST_Data2_13_sub_39_34684</annotation>
 <trace id="15">
 16464 1590, 16477 1586, 16510 1593, 16510 1593, 16510 1593, 16510 1593, 16510 1593, 16510 1593
@@ -17,8 +17,8 @@
 16887 2012, 16894 2078, 16913 2148, 16933 2222, 16940 2276, 16933 2318, 16913 2346, 16894 2365, 16887 2373, 16880 2373, 16880 2373, 16887 2346, 16913 2295, 16960 2225, 17019 2144, 17072 2078, 17112 2032, 17152 2012, 17185 2004, 17211 2024, 17224 2074, 17238 2148, 17251 2237, 17264 2315, 17277 2392, 17277 2392, 17277 2392, 17277 2392, 17277 2392, 17277 2392, 17277 2392
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="14"/>
 		<traceView traceDataRef="15"/>
 		<traceView traceDataRef="16"/>

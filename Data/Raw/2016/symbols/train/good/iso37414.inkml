@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\lim</annotation>
 <annotation type="UI">2011_KME1_w10_e22_37414</annotation>
 <trace id="1">
 2483 1728, 2483 1728, 2486 1741, 2485 1755, 2483 1773, 2482 1789, 2480 1819, 2479 1852, 2477 1887, 2475 1929, 2471 1972, 2467 2005, 2461 2032, 2454 2048
@@ -17,8 +17,8 @@
 2361 1542, 2361 1542, 2386 1526, 2401 1522, 2452 1500, 2511 1493, 2538 1494, 2569 1492
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

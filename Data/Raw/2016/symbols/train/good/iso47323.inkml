@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">2011_KAIST_Data2_21_sub_71_47323</annotation>
 <trace id="13">
 7441 3068, 7408 3153, 7388 3250, 7388 3343, 7422 3420, 7481 3455, 7567 3475, 7660 3448, 7752 3413, 7812 3358, 7845 3289, 7852 3227, 7832 3164, 7792 3122, 7739 3087, 7666 3071, 7613 3068, 7587 3075, 7587 3075, 7587 3075, 7587 3075, 7587 3075, 7587 3075
@@ -14,8 +14,8 @@
 8023 2924, 7957 2967, 7898 3002, 7871 3029, 7891 3060, 7951 3075, 8043 3079, 8149 3083, 8248 3106, 8328 3133, 8374 3172, 8394 3219, 8387 3269, 8354 3331, 8301 3382, 8235 3417, 8182 3440, 8136 3455, 8103 3455, 8096 3440, 8096 3440, 8096 3440, 8096 3440, 8096 3440, 8096 3440
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="13"/>
 		<traceView traceDataRef="12"/>
 		<traceView traceDataRef="14"/>

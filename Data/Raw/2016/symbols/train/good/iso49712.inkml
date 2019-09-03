@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pi</annotation>
 <annotation type="UI">2011_KAIST_Data2_6_sub_51_49712</annotation>
 <trace id="11">
 8572 4974, 8546 5001, 8519 5027, 8493 5079, 8466 5133, 8466 5186, 8466 5265, 8466 5345, 8466 5423, 8466 5477, 8493 5530, 8493 5556, 8519 5556
@@ -14,8 +14,8 @@
 8758 5079, 8731 5107, 8705 5133, 8705 5186, 8678 5238, 8678 5318, 8678 5371, 8678 5451, 8678 5477, 8705 5503, 8731 5530, 8758 5530, 8811 5503, 8864 5477, 8917 5451, 8969 5397
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="11"/>
 		<traceView traceDataRef="10"/>
 		<traceView traceDataRef="12"/>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">94_david_9320</annotation>
 <trace id="24">
 866 195
@@ -17,8 +17,8 @@
 868 207, 868 206, 868 214, 868 216, 869 225, 869 227, 869 228, 869 229, 869 228, 869 227, 869 226, 870 224, 870 222
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="24"/>
 		<traceView traceDataRef="25"/>
 		<traceView traceDataRef="22"/>

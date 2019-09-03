@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">junk</annotation>
 <annotation type="UI">2011_KME2_w3_e96_31914</annotation>
 <trace id="9">
 7185 2059, 7185 2059, 7196 2073, 7205 2082, 7218 2097, 7234 2120, 7255 2156, 7277 2204, 7302 2262, 7327 2335, 7352 2414, 7374 2504, 7395 2601, 7410 2707, 7419 2811, 7424 2915, 7424 3016, 7415 3109, 7401 3199, 7381 3283, 7358 3357, 7329 3425, 7297 3484, 7259 3538, 7223 3581, 7176 3631
@@ -17,8 +17,8 @@
 8219 2861, 8219 2852, 8232 2852, 8253 2843, 8275 2838, 8309 2834, 8350 2829, 8397 2820, 8451 2813, 8508 2804, 8569 2797, 8634 2788, 8693 2782, 8758 2768
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="9"/>
 		<traceView traceDataRef="10"/>
 		<traceView traceDataRef="11"/>

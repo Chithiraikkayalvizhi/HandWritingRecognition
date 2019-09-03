@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">k</annotation>
 <annotation type="UI">81_jorge_7115</annotation>
 <trace id="9">
 739 312, 739 313, 741 338, 741 339, 740 338, 739 335
@@ -11,8 +11,8 @@
 759 313, 758 314, 738 326, 738 327, 739 329, 742 330, 748 331, 753 331, 755 331, 758 332, 760 332, 762 332, 762 333, 763 333, 764 333
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="9"/>
 		<traceView traceDataRef="10"/>
 	</traceGroup>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">k</annotation>
 <annotation type="UI">81_hirata_7106</annotation>
 <trace id="24">
 736 225, 736 224, 736 223, 735 223, 736 224, 736 225, 736 226, 736 227, 736 229, 736 230, 736 231, 736 233, 735 234, 735 236, 735 237, 735 238, 735 239, 734 240, 735 240, 736 239, 736 238, 737 237, 738 236, 739 235, 740 234, 741 233, 743 232, 744 231, 745 231, 746 230, 747 230, 747 229, 748 229, 747 229, 746 229
@@ -17,8 +17,8 @@
 736 225
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="24"/>
 		<traceView traceDataRef="25"/>
 		<traceView traceDataRef="26"/>

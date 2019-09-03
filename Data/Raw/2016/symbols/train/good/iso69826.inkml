@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sum</annotation>
 <annotation type="UI">MfrDB1517_69826</annotation>
 <trace id="24">
 798 360 47459, 798 360 47465, 798 360 47473, 797 359 47480, 797 359 47488, 797 359 47497, 797 359 47503, 797 358 47511, 798 358 47519, 799 357 47531, 800 357 47565, 807 356 47598, 822 356 47630, 835 355 47664
@@ -14,8 +14,8 @@
 811 268 46817, 810 268 46822, 810 268 46835, 809 268 46852, 808 268 46867, 806 267 46900, 813 267 46933, 834 269 46969, 841 270 47003
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="24"/>
 		<traceView traceDataRef="25"/>
 		<traceView traceDataRef="23"/>

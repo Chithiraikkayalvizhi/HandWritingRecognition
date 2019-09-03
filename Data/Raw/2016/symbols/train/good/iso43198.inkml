@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pi</annotation>
 <annotation type="UI">2011_KAIST_Data1_7_sub_5_43198</annotation>
 <trace id="3">
 6312 1765, 6312 1765, 6312 1765, 6338 1759, 6362 1753, 6394 1746, 6433 1738, 6477 1729, 6519 1720, 6563 1713, 6606 1711, 6633 1702
@@ -14,8 +14,8 @@
 6430 1809, 6416 1842, 6398 1877, 6386 1916, 6379 1955, 6374 1993, 6374 2026, 6382 2059, 6395 2081, 6395 2081, 6434 2082
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="3"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="4"/>

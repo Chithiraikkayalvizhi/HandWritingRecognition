@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">k</annotation>
 <annotation type="UI">MfrDB2346_75479</annotation>
 <trace id="24">
 873 128 88480, 875 129 88968, 877 130 88992, 879 130 89017, 880 130 89067, 880 131 89091, 882 132 89139, 884 133 89164, 886 134 89188, 886 135 89236, 889 136 89335, 891 138 89359, 893 139 89384, 894 140 89435, 895 140 89482, 895 141 89506, 897 142 89653, 898 142 89701, 898 143 89726, 899 143 89873
@@ -14,8 +14,8 @@
 893 107 87404, 891 109 87525, 889 111 87549, 887 114 87574, 884 116 87598, 882 118 87623, 879 121 87721, 877 123 87745, 874 126 87769, 874 127 87801, 873 128 87818
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="24"/>
 		<traceView traceDataRef="22"/>
 		<traceView traceDataRef="23"/>

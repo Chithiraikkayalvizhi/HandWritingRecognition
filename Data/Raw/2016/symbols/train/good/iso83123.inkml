@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">k</annotation>
 <annotation type="UI">MfrDB3300_83123</annotation>
 <trace id="15">
 344 93 29791, 345 92 29838, 346 92 29854, 348 91 29854, 349 90 29869, 351 89 29885, 354 89 29885, 355 88 29900, 357 87 29900, 359 87 29916, 361 86 29916, 362 85 29932, 363 85 29932, 364 84 29947, 365 84 29947, 366 84 29963, 366 83 29978, 367 83 29994
@@ -14,8 +14,8 @@
 345 89 30571, 346 89 30665, 347 90 30665, 349 92 30680, 351 93 30680, 354 96 30696, 356 97 30696, 357 99 30712, 359 100 30712, 361 101 30727, 362 102 30727, 363 103 30743, 364 103 30758, 365 104 30758, 365 105 30774, 366 106 30805, 367 107 30821, 368 108 30836, 369 109 30852, 370 109 30868
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="15"/>
 		<traceView traceDataRef="14"/>
 		<traceView traceDataRef="16"/>

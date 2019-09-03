@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">MfrDB3808_85453</annotation>
 <trace id="31">
 570 243 4792827, 571 240 4792830, 566 245 4792857, 567 246 4792874, 568 247 4792895, 570 247 4792915, 571 248 4792934, 573 248 4792953, 574 248 4792973, 575 249 4792991, 575 250 4793013, 575 251 4793043, 574 251 4793061, 574 252 4793079, 572 252 4793101, 570 252 4793120, 569 252 4793139, 569 251 4793183
@@ -14,8 +14,8 @@
 553 242 4791624, 550 242 4791657, 547 245 4791675, 546 250 4791695, 547 251 4791714, 548 251 4791733, 550 251 4791751, 552 250 4791771, 553 250 4791792, 553 249 4791811
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="31"/>
 		<traceView traceDataRef="30"/>
 		<traceView traceDataRef="29"/>

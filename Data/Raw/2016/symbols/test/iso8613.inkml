@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\lim</annotation>
 <annotation type="UI">IVC_2014_F509_E92_8613</annotation>
 <trace id="1">
 283 114, 283 115
@@ -14,8 +14,8 @@
 287 141, 288 140, 292 137, 295 135, 297 133, 299 130, 300 128, 302 125, 304 123, 309 119, 310 119, 312 120, 313 122, 314 124, 314 127, 314 130, 314 132, 315 135, 315 137, 315 138, 316 138, 317 137, 321 129, 322 127, 323 124, 326 122, 327 121, 328 122, 328 121, 329 121, 331 127, 331 130, 332 135, 332 136, 332 137, 331 137, 332 137, 338 129, 341 127, 344 125, 346 124, 351 124, 353 125, 355 127, 356 131, 358 138, 358 141, 358 143, 358 144
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="2"/>

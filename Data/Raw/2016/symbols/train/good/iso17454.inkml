@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">2011_IVC_DEPART_F011_E011_17454</annotation>
 <trace id="1">
 10.4485 16.3995, 10.4485 16.3995, 10.4485 16.3995, 10.4485 16.3995, 10.4485 16.3995, 10.4485 16.3995, 10.4485 16.4236, 10.4405 16.4517, 10.4445 16.4797, 10.4686 16.5038, 10.5007 16.5159, 10.5328 16.5199, 10.5769 16.4958
@@ -17,8 +17,8 @@
 10.5127 16.2149, 10.5127 16.2149, 10.5127 16.2149, 10.5127 16.2149, 10.5127 16.2149, 10.5127 16.2149, 10.5127 16.1989, 10.5208 16.1949, 10.5408 16.1949, 10.5729 16.2069
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

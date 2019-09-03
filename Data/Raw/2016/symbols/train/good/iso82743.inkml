@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">5</annotation>
 <annotation type="UI">MfrDB3271_82743</annotation>
 <trace id="15">
 487 50 499974, 486 55 500032, 486 57 500042, 486 58 500052, 486 59 500062, 486 60 500081, 487 60 500199, 488 60 500219, 489 60 500238, 490 60 500327, 490 61 500336, 491 61 500346, 491 62 500356, 491 63 500366, 491 64 500405, 491 65 500454, 491 66 500493, 490 66 500533, 489 66 500542, 488 66 500572, 487 66 500582, 486 66 500601, 485 66 500690
@@ -11,8 +11,8 @@
 488 52 501416, 493 52 501534, 494 52 501543, 495 52 501632
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="15"/>
 		<traceView traceDataRef="16"/>
 	</traceGroup>

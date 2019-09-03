@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">i</annotation>
 <annotation type="UI">MfrDB3103_80560</annotation>
 <trace id="11">
 218 133 365792
@@ -14,8 +14,8 @@
 218 142 366730, 217 142 366789, 217 143 366800, 217 144 366810, 216 144 366820, 215 145 366830, 214 146 366841, 214 147 366851, 213 148 366861, 213 149 366882, 213 150 366903
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="11"/>
 		<traceView traceDataRef="10"/>
 		<traceView traceDataRef="12"/>

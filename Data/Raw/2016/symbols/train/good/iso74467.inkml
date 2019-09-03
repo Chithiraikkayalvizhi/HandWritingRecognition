@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">R</annotation>
 <annotation type="UI">MfrDB2119_74467</annotation>
 <trace id="31">
 700 295 3500369, 701 296 3500384, 703 299 3500400, 706 303 3500416, 715 313 3500433, 721 320 3500448, 726 324 3500465, 729 329 3500481, 731 331 3500497, 732 331 3500528, 731 329 3500633
@@ -14,8 +14,8 @@
 688 254 3497875, 687 259 3497889, 687 264 3497905, 687 271 3497921, 687 278 3497937, 687 288 3497953, 687 295 3497969, 687 306 3497985, 687 314 3498001, 686 319 3498017, 686 323 3498033, 686 327 3498049, 686 331 3498065, 686 333 3498081, 685 334 3498097, 685 333 3498153, 685 332 3498169, 685 329 3498185, 685 328 3498201
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="31"/>
 		<traceView traceDataRef="30"/>
 		<traceView traceDataRef="29"/>

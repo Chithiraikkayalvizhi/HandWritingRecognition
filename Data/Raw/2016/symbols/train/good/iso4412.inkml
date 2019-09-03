@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">+</annotation>
 <annotation type="UI">129_silas_4412</annotation>
 <trace id="17">
 940 160, 949 160, 956 161, 957 161, 958 161
@@ -11,8 +11,8 @@
 955 150, 955 149, 955 147, 955 148, 952 168, 952 169, 952 170, 953 171, 953 170
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="17"/>
 		<traceView traceDataRef="16"/>
 	</traceGroup>

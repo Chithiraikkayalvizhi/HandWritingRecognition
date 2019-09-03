@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">F</annotation>
 <annotation type="UI">2011_KAIST_Data1_8_sub_15_43230</annotation>
 <trace id="1">
 7944 2424, 7927 2435, 7927 2435, 7912 2451, 7903 2465, 7891 2486, 7877 2513, 7862 2549, 7843 2594, 7823 2650, 7801 2710, 7780 2774, 7757 2836, 7736 2896, 7715 2952, 7695 2998, 7677 3034, 7662 3062, 7650 3077, 7642 3090, 7627 3084, 7627 3084
@@ -14,8 +14,8 @@
 7767 2807, 7789 2813, 7804 2808, 7829 2802, 7861 2795, 7896 2786, 7930 2777, 7966 2766, 8009 2762, 8036 2745, 8072 2741
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="2"/>

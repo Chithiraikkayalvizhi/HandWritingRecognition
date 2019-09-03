@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">MfrDB1745_71654</annotation>
 <trace id="1">
 155 364 1595941, 155 365 1596019, 155 368 1596035, 155 369 1596035, 154 370 1596050, 154 371 1596066, 154 372 1596066, 154 375 1596082, 154 378 1596082, 152 379 1596097, 152 381 1596097, 152 384 1596113, 152 388 1596113, 152 391 1596128, 152 393 1596128, 151 398 1596144, 151 401 1596144, 151 403 1596160, 151 404 1596160, 151 407 1596175, 151 408 1596175, 151 410 1596191, 151 412 1596191, 151 413 1596206, 151 414 1596206, 151 415 1596222, 151 416 1596222, 151 417 1596238, 151 419 1596253, 151 420 1596269, 151 421 1596284, 151 422 1596316
@@ -17,8 +17,8 @@
 161 353 1596893
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

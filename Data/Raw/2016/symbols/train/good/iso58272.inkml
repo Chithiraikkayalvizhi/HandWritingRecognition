@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\Delta</annotation>
 <annotation type="UI">"200923-1254-305.ink"_58272</annotation>
 <trace id="5">
 7585 10289, 7664 10308, 7647 10280, 7616 10233, 7571 10177, 7510 10095, 7437 10006, 7350 9902, 7261 9799, 7084 9664, 7003 9580, 6930 9507, 6877 9454, 6841 9423, 6815 9390, 6815 9390
@@ -14,8 +14,8 @@
 6426 10557, 6412 10560, 6393 10555, 6384 10549, 6379 10549, 6379 10549, 6395 10543, 6423 10541, 6460 10532, 6510 10527, 6566 10524, 6631 10521, 6709 10524, 6796 10524, 6874 10535, 6958 10543, 7051 10524, 7151 10468, 7233 10459
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="4"/>
 		<traceView traceDataRef="6"/>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sqrt</annotation>
 <annotation type="UI">"200923-1253-85.ink"_57805</annotation>
 <trace id="13">
 6381 9586, 6381 9589, 6381 9597, 6381 9617, 6381 9650, 6379 9692, 6379 9757, 6370 9835, 6370 9939, 6367 10056, 6376 10188, 6390 10328, 6415 10473, 6435 10611, 6463 10759
@@ -14,8 +14,8 @@
 6390 9757, 6390 9815, 6384 9888, 6376 9983, 6367 10098, 6348 10210
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="13"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="14"/>

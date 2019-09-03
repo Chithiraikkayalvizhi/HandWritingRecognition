@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pm</annotation>
 <annotation type="UI">116_rosario_2720</annotation>
 <trace id="8">
 741 111, 740 112, 749 111, 750 111, 757 110, 759 110, 761 109, 763 109, 765 109, 767 108, 769 108, 771 108, 772 108, 773 108, 774 108, 775 108, 776 108, 775 108, 774 108
@@ -14,8 +14,8 @@
 743 80, 742 80, 741 80, 740 81, 763 78, 765 78, 767 78, 768 77, 770 77, 771 77, 772 77, 773 76, 774 76, 775 76, 775 75, 774 74
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="8"/>
 		<traceView traceDataRef="7"/>
 		<traceView traceDataRef="6"/>

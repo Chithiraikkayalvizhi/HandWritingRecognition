@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">2011_IVC_depart_F027_E036_28935</annotation>
 <trace id="1">
 8.96391 16.3513, 8.98398 16.3473, 8.98398 16.3433, 8.97595 16.3393, 8.95187 16.3353, 8.90774 16.3473, 8.83953 16.3794, 8.78736 16.4276, 8.7673 16.4717, 8.7673 16.5118, 8.78335 16.548, 8.81946 16.576, 8.87965 16.5961, 8.95589 16.5841, 9.04015 16.572
@@ -14,8 +14,8 @@
 9.3451 16.4316, 9.34911 16.4155, 9.33707 16.4075, 9.313 16.4035, 9.27689 16.4115, 9.22071 16.4316, 9.1525 16.4797, 9.10836 16.5118, 9.10034 16.548, 9.11639 16.568, 9.15651 16.5921, 9.2167 16.5921, 9.30899 16.556, 9.38121 16.4998, 9.42134 16.4677, 9.41732 16.4316, 9.38121 16.3995, 9.32102 16.4035, 9.27689 16.4196, 9.26485 16.4436
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="3"/>
 		<traceView traceDataRef="2"/>

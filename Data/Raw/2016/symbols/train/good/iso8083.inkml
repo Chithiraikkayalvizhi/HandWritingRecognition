@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\theta</annotation>
 <annotation type="UI">89_hirata_8083</annotation>
 <trace id="37">
 487 118, 486 118, 486 117, 487 117, 488 117, 489 116, 491 116, 492 116, 493 115, 495 115, 496 115, 498 115, 499 114, 500 114, 501 114, 502 114, 503 114, 504 114, 505 113, 506 113, 507 113, 508 113
@@ -17,8 +17,8 @@
 494 100
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="37"/>
 		<traceView traceDataRef="36"/>
 		<traceView traceDataRef="35"/>

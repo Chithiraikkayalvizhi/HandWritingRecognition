@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">i</annotation>
 <annotation type="UI">118_lucelia_3317</annotation>
 <trace id="9">
 606 172, 605 169, 604 177, 604 179, 604 180, 605 181, 606 183, 607 184, 608 184, 609 185, 610 185, 611 185, 612 185, 613 185, 614 185, 615 184, 616 183, 616 182
@@ -11,8 +11,8 @@
 604 158, 602 158
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="9"/>
 		<traceView traceDataRef="10"/>
 	</traceGroup>

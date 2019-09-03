@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">k</annotation>
 <annotation type="UI">81_leissi_7140</annotation>
 <trace id="15">
 821 125, 831 130, 837 133, 839 133, 840 133, 841 134, 842 134
@@ -11,8 +11,8 @@
 819 117, 819 116, 819 115, 820 121, 820 122, 820 124, 820 125, 820 126, 820 127, 820 128, 820 129, 820 130, 820 131, 820 130, 821 129, 821 128, 822 127, 822 126, 823 125, 824 124, 825 123, 827 122, 828 121, 829 119, 830 118, 831 117, 832 116, 833 115, 834 114, 834 113, 833 114
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="15"/>
 		<traceView traceDataRef="14"/>
 	</traceGroup>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">junk</annotation>
 <annotation type="UI">98_silas_6141</annotation>
 <trace id="13">
 740 216, 743 215, 750 219, 748 221, 745 224, 744 225, 742 226, 741 227, 740 228, 741 228, 742 228, 743 228, 743 229, 744 230, 745 231, 746 231, 747 231, 748 231, 748 230, 750 230, 751 229, 752 228, 753 228, 754 227, 755 227, 756 227, 757 227
@@ -17,8 +17,8 @@
 751 240, 750 251, 750 259, 751 259, 750 258
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="13"/>
 		<traceView traceDataRef="14"/>
 		<traceView traceDataRef="15"/>

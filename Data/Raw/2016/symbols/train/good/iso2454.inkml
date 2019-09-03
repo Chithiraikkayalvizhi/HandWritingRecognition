@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">111_miguel2_2454</annotation>
 <trace id="5">
 436 95, 437 94, 436 92, 433 92, 429 95, 427 95, 425 96, 425 97, 424 97, 424 98, 423 98, 422 99, 422 100, 421 102, 420 102, 420 103, 420 104, 420 105, 420 106, 419 106, 419 107, 419 108, 420 108, 420 109, 421 110, 421 111, 422 111, 423 112, 424 113, 425 114, 426 115, 427 115, 428 115, 429 115, 430 114, 431 114, 432 114, 432 113, 433 113, 434 113, 435 113, 436 113, 436 112, 437 112
@@ -14,8 +14,8 @@
 459 94, 459 93, 451 98, 450 100, 450 101, 450 103, 450 104, 452 109, 452 110, 452 111, 453 112, 454 113, 455 114, 456 114, 456 115, 457 115, 457 114, 458 113, 459 113, 459 112, 460 111, 460 110, 461 109, 461 108, 462 107, 462 106, 463 105, 463 104, 463 103, 464 103, 464 102, 464 101, 463 100, 463 99, 462 98, 461 98, 460 98, 459 98, 458 97, 457 97, 456 97
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="7"/>
 		<traceView traceDataRef="6"/>

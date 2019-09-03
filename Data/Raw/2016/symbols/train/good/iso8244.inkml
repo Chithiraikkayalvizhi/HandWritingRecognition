@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">90_rosario_8244</annotation>
 <trace id="5">
 808 106, 808 105, 812 103, 814 103, 816 110, 816 111, 816 112, 816 113, 816 114, 815 115, 815 116, 815 118, 814 119, 814 120, 814 122, 813 123, 813 125, 813 126, 812 128, 812 129, 812 131, 812 132, 812 134, 812 135, 812 136, 812 137, 813 138, 814 139, 814 140, 815 141, 817 141, 818 142, 819 142, 821 142, 822 142, 823 142, 824 142, 825 142, 826 142, 826 141, 827 140, 827 138
@@ -17,8 +17,8 @@
 813 84, 812 83
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="4"/>
 		<traceView traceDataRef="7"/>

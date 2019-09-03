@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sqrt</annotation>
 <annotation type="UI">MfrDB1877_72544</annotation>
 <trace id="30">
 653 151 3642006, 653 153 3642024, 653 154 3642044, 653 158 3642065, 653 159 3642085, 653 161 3642107, 653 162 3642129, 653 163 3642152, 653 164 3642185
@@ -14,8 +14,8 @@
 651 147 3651352, 652 147 3651498, 653 147 3651536, 654 148 3651583, 654 149 3651695, 654 150 3651719, 654 151 3651816, 654 152 3652013, 654 153 3652038, 654 152 3652319, 654 151 3652369, 653 151 3652404, 653 150 3652429, 653 149 3652540, 652 149 3652640, 652 148 3652724, 651 148 3652748
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="34"/>
 		<traceView traceDataRef="27"/>
 		<traceView traceDataRef="30"/>

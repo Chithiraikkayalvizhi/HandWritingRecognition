@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">2011_KAIST_Data2_14_sub_71_45151</annotation>
 <trace id="15">
 5272 3161, 5256 3242, 5256 3288, 5260 3330, 5270 3371, 5283 3400, 5303 3421, 5324 3428, 5346 3425, 5367 3410, 5387 3385, 5403 3358, 5414 3324, 5419 3294, 5419 3263, 5412 3238, 5400 3218, 5382 3202, 5362 3190, 5340 3186, 5317 3186, 5297 3181, 5281 3181, 5270 3186, 5270 3186, 5270 3186
@@ -14,8 +14,8 @@
 5588 3005, 5552 3041, 5545 3055, 5540 3069, 5545 3089, 5554 3105, 5572 3123, 5597 3143, 5622 3161, 5649 3181, 5676 3204, 5698 3233, 5712 3270, 5719 3310, 5719 3355, 5708 3403, 5696 3452, 5683 3498, 5667 3538, 5651 3577, 5647 3595
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="15"/>
 		<traceView traceDataRef="14"/>
 		<traceView traceDataRef="16"/>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">94_caue_9279</annotation>
 <trace id="13">
 520 150, 524 144, 527 133, 527 131, 524 141, 524 143, 524 145, 524 147, 524 149, 524 150, 524 152, 525 154, 525 156, 526 157, 527 158, 528 160, 530 161, 531 162, 533 163, 534 163, 536 164, 537 164, 538 164, 540 164, 541 164, 541 163, 542 163, 543 162, 543 161, 543 160, 543 158, 542 156, 542 154
@@ -17,8 +17,8 @@
 532 123, 533 122
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="13"/>
 		<traceView traceDataRef="12"/>
 		<traceView traceDataRef="15"/>

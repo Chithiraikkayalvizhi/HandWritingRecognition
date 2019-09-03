@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">1</annotation>
 <annotation type="UI">110_fujita_2024</annotation>
 <trace id="1">
 400 44, 399 47, 400 48, 400 49, 401 48, 401 46, 402 45, 403 42, 404 40, 405 38, 406 35, 407 33, 408 31, 409 29, 410 28, 411 28, 411 29, 412 30, 412 32, 412 35, 413 38, 413 41, 414 45, 414 48, 414 51, 414 54, 415 56, 415 58, 415 59, 416 60, 416 61
@@ -11,8 +11,8 @@
 400 44
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 	</traceGroup>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pi</annotation>
 <annotation type="UI">2011_IVC_depart_F015_E067_20801</annotation>
 <trace id="5">
 10.8297 20.8895, 10.8337 20.8855, 10.8377 20.8975, 10.8337 20.9296, 10.8297 20.9898, 10.8177 21.054, 10.8016 21.1342, 10.7936 21.1944, 10.7896 21.2426, 10.7856 21.3028, 10.7816 21.3309, 10.7816 21.3509
@@ -14,8 +14,8 @@
 10.5087 20.8534, 10.5087 20.8453, 10.5167 20.8494, 10.5368 20.8614, 10.5729 20.8574, 10.6572 20.8734, 10.7535 20.8895, 10.8498 20.8855, 10.9421 20.8694, 11.0143 20.8734, 11.0705 20.8654, 11.0986 20.8774, 11.1106 20.8774, 11.1146 20.8774, 11.1146 20.8815, 11.1146 20.8774, 11.1186 20.8855
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="4"/>
 		<traceView traceDataRef="6"/>

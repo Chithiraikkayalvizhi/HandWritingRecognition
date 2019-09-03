@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">94_fujita_9374</annotation>
 <trace id="11">
 316 129, 317 129, 317 130, 317 131, 318 132, 318 134, 319 135, 319 137, 319 138, 320 143, 320 144, 320 143, 321 142, 321 141, 321 139, 322 137, 323 136, 323 134, 324 133, 325 132, 326 131, 327 131, 328 131, 329 132, 330 133, 331 134, 332 136, 333 137, 333 138, 334 140, 334 141, 335 141, 335 142, 335 143
@@ -29,8 +29,8 @@
 296 122
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="11"/>
 		<traceView traceDataRef="10"/>
 		<traceView traceDataRef="5"/>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">y</annotation>
 <annotation type="UI">2014_RIT_CROHME_144_13371</annotation>
 <trace id="7">
 482 162, 481 167, 477 178, 470 191, 463 204, 457 216, 452 225, 448 235, 445 242, 444 249, 442 254, 441 258, 440 260, 439 260
@@ -11,8 +11,8 @@
 443 156, 441 157, 442 165, 443 175, 445 185, 446 193, 448 200, 449 205, 450 209, 452 210, 453 210
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="7"/>
 		<traceView traceDataRef="6"/>
 	</traceGroup>

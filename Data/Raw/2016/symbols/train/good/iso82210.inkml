@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">k</annotation>
 <annotation type="UI">MfrDB3221_82210</annotation>
 <trace id="9">
 423 217 700829, 423 218 700836, 423 219 700868, 423 220 700892, 424 220 700900, 425 220 700916, 425 221 700940, 426 221 700948, 427 221 700964, 428 222 700980, 429 222 701004, 430 223 701012, 431 224 701052, 432 224 701084, 432 225 701140, 432 226 701164, 432 227 701180, 432 228 701196
@@ -14,8 +14,8 @@
 421 208 699157, 421 209 699228, 420 212 699236, 420 214 699244, 419 216 699253, 418 217 699261, 418 219 699269, 417 220 699277, 417 221 699284, 417 222 699293, 417 223 699300, 417 224 699308, 417 225 699332, 417 226 699364, 417 227 699372
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="9"/>
 		<traceView traceDataRef="8"/>
 		<traceView traceDataRef="7"/>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\lim</annotation>
 <annotation type="UI">2011_IVC_depart_F012_E037_18445</annotation>
 <trace id="1">
 9.56177 20.725, 9.55776 20.729, 9.55776 20.7531, 9.55776 20.7852, 9.55375 20.8052, 9.55776 20.8373, 9.56579 20.8333
@@ -17,8 +17,8 @@
 9.60591 20.5845, 9.58184 20.5564, 9.57381 20.5564, 9.58585 20.5645
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

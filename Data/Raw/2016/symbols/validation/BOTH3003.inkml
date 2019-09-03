@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">2013_IVC_CROHME_F116_E164_3003</annotation>
 <trace id="33">
 1055 258, 1050 263, 1049 265, 1049 266, 1049 268, 1050 269, 1052 270, 1053 270
@@ -11,8 +11,8 @@
 1089 257, 1081 255, 1078 257, 1076 258, 1074 260, 1073 262, 1072 264, 1072 266, 1071 267, 1072 268, 1073 269, 1074 270, 1076 270, 1077 270, 1079 269, 1082 267, 1084 265, 1085 264, 1087 262, 1088 261, 1088 260, 1088 259, 1088 258, 1089 258, 1090 258, 1091 258, 1092 258, 1093 257, 1095 257, 1096 256, 1098 256, 1099 255, 1101 255, 1102 255, 1103 255, 1103 254, 1104 254, 1104 255, 1105 255, 1105 256, 1106 257, 1107 258, 1108 260, 1108 261, 1109 263, 1110 265, 1110 267, 1110 268, 1111 270, 1111 271, 1110 273, 1110 274, 1109 275, 1107 276, 1106 276, 1104 275, 1103 275
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="33"/>
 		<traceView traceDataRef="34"/>
 	</traceGroup>

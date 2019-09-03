@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\leq</annotation>
 <annotation type="UI">126_fujita_3912</annotation>
 <trace id="19">
 534 132
@@ -14,8 +14,8 @@
 534 132, 533 131, 534 132, 535 132, 535 134, 536 135, 537 137, 539 138, 540 140, 542 142, 543 144, 544 146, 546 148, 547 149, 549 151, 550 152, 551 153, 552 154, 553 155, 554 155, 555 155
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="19"/>
 		<traceView traceDataRef="18"/>
 		<traceView traceDataRef="20"/>

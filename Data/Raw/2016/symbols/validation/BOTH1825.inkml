@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pi</annotation>
 <annotation type="UI">2013_IVC_CROHME_F106_E106_1825</annotation>
 <trace id="31">
 1022 212, 984 207, 974 207, 964 207, 955 208, 945 209, 937 210, 929 211, 926 212
@@ -11,8 +11,8 @@
 908 286, 918 282, 921 277, 924 272, 927 265, 931 259, 934 253, 937 248, 939 242, 940 238, 942 233, 943 230, 944 226, 945 224, 946 223, 946 221, 946 220, 946 221, 946 222, 946 224, 945 226, 945 230, 944 234, 944 239, 944 244, 944 250, 944 256, 944 261, 944 266, 945 270, 945 273, 946 275, 947 277, 949 278, 951 277, 954 275, 957 272, 961 268, 964 263, 968 258, 972 252, 976 248, 978 243, 980 239, 982 236, 983 234, 984 232, 984 231, 985 231, 985 232, 985 234, 985 238, 984 242, 984 248, 984 255, 984 263, 983 270, 983 277, 983 283, 984 288, 984 292, 984 294, 985 294, 987 293, 988 292
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="31"/>
 		<traceView traceDataRef="30"/>
 	</traceGroup>

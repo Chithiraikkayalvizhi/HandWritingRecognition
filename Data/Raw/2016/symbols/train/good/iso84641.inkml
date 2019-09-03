@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pi</annotation>
 <annotation type="UI">MfrDB3473_84641</annotation>
 <trace id="19">
 501 207 147949, 501 213 148035, 501 215 148045, 501 217 148056, 501 219 148066, 501 221 148076, 501 223 148108
@@ -17,8 +17,8 @@
 500 202 151117, 501 207 151203, 501 209 151219, 502 210 151229, 503 211 151240, 503 213 151250, 503 215 151260, 503 217 151275, 503 219 151307, 503 221 151339, 503 223 151379, 503 225 151411, 503 227 151435, 503 229 151459, 502 230 151469
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="19"/>
 		<traceView traceDataRef="18"/>
 		<traceView traceDataRef="20"/>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">junk</annotation>
 <annotation type="UI">2013_IVC_CROHME_F105_E63_1165</annotation>
 <trace id="19">
 438 190, 440 195, 441 197, 441 198, 443 200, 444 203, 444 205, 445 208, 446 211, 446 213, 447 217, 447 220, 447 223, 446 226, 446 230, 445 233, 444 236, 443 239, 442 243, 442 246, 441 249, 440 252, 439 254, 439 256, 439 257, 438 258, 438 259, 438 260
@@ -17,8 +17,8 @@
 466 247, 461 251, 460 252, 459 252, 459 253, 458 253, 458 254
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="19"/>
 		<traceView traceDataRef="20"/>
 		<traceView traceDataRef="21"/>

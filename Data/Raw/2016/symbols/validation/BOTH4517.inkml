@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\theta</annotation>
 <annotation type="UI">2013_IVC_CROHME_F118_E240_4517</annotation>
 <trace id="19">
 1099 273, 1105 270, 1111 270, 1117 270, 1123 270, 1130 270, 1137 270, 1143 271, 1150 271, 1156 271, 1157 271
@@ -11,8 +11,8 @@
 1111 321, 1107 302, 1107 295, 1106 288, 1106 280, 1107 271, 1108 261, 1109 252, 1111 242, 1114 232, 1118 224, 1122 216, 1126 209, 1130 203, 1135 198, 1139 195, 1143 192, 1147 190, 1149 189, 1151 189, 1153 189, 1154 190, 1155 193, 1155 196, 1155 201, 1155 207, 1154 215, 1153 223, 1153 232, 1152 241, 1151 251, 1150 261, 1149 270, 1147 280, 1145 290, 1143 299, 1140 308, 1137 316, 1135 323, 1132 329, 1129 334, 1126 339, 1123 343, 1120 345, 1118 347, 1115 347, 1114 347, 1112 345, 1110 343, 1108 339, 1107 335, 1105 330, 1104 326, 1104 321, 1103 315, 1103 310, 1103 308
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="19"/>
 		<traceView traceDataRef="18"/>
 	</traceGroup>

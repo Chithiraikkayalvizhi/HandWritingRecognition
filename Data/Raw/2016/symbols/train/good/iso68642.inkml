@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">MfrDB1301_68642</annotation>
 <trace id="1">
 278 332 454618, 278 331 454633, 279 330 454649, 280 330 454649, 280 329 454665, 282 327 454680, 283 325 454696, 284 324 454696, 284 323 454712, 285 323 454712, 285 322 454727, 286 322 454727, 287 322 454743, 288 322 454758, 288 323 454821, 288 325 454836, 288 326 454836, 286 329 454852, 286 331 454852, 286 332 454868, 285 334 454868, 284 337 454883, 283 339 454883, 283 340 454899, 283 342 454899, 283 343 454914, 284 344 454914, 285 346 454930, 286 346 454930, 287 348 454946, 288 349 454946, 289 349 454961, 291 350 454961, 293 351 454992, 293 352 454992, 294 352 455008, 297 352 455008, 297 353 455024, 298 353 455024, 299 353 455039, 300 353 455039
@@ -17,8 +17,8 @@
 293 309 455429, 293 310 455507, 293 311 455523, 293 312 455585
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

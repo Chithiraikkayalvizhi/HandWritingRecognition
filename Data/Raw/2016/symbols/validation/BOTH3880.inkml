@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pi</annotation>
 <annotation type="UI">2013_IVC_CROHME_F117_E207_3880</annotation>
 <trace id="32">
 1101 158, 1108 157, 1110 157, 1114 156, 1117 156, 1121 156, 1125 156, 1127 156, 1130 156, 1132 156, 1134 156, 1136 156, 1137 156, 1138 156, 1139 156, 1139 155, 1138 155
@@ -14,8 +14,8 @@
 1111 151, 1110 157, 1110 161, 1110 165, 1110 169, 1110 172, 1110 177, 1110 181, 1110 185, 1110 190, 1110 193, 1110 196, 1110 199, 1110 202, 1110 204, 1110 206, 1110 208, 1110 209, 1110 210, 1111 211, 1110 211, 1111 210
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="32"/>
 		<traceView traceDataRef="31"/>
 		<traceView traceDataRef="30"/>

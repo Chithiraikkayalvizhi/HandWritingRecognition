@@ -2,14 +2,14 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">junk</annotation>
 <annotation type="UI">2011_KAIST_Data2_14_sub_17_34864</annotation>
 <trace id="9">
 7514 2301, 7534 2348, 7552 2378, 7572 2402, 7604 2432, 7640 2450, 7683 2466, 7730 2470, 7785 2463
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="9"/>
 	</traceGroup>
 </traceGroup>

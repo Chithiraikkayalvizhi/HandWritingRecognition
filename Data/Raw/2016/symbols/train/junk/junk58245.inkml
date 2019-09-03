@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">junk</annotation>
 <annotation type="UI">MfrDB0020_58245</annotation>
 <trace id="9">
 284 466 1274528
@@ -14,8 +14,8 @@
 302 485 1275698, 304 485 1275729, 305 485 1275745, 306 485 1275745, 308 485 1275761, 311 485 1275761, 312 485 1275776, 313 485 1275776, 315 485 1275792, 316 485 1275854, 317 485 1275870, 318 485 1275885, 319 485 1275885, 320 485 1275901, 321 485 1275917
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="9"/>
 		<traceView traceDataRef="10"/>
 		<traceView traceDataRef="11"/>

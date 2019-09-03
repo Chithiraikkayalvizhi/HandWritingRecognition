@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">k</annotation>
 <annotation type="UI">MfrDB3572_85389</annotation>
 <trace id="36">
 746 303 596947, 751 305 596969, 752 306 597001, 753 307 597011
@@ -14,8 +14,8 @@
 743 285 595387, 743 291 595417, 743 293 595427, 743 295 595438, 743 297 595448, 743 301 595459, 743 303 595469, 743 305 595480, 743 309 595490, 743 311 595501, 743 313 595511
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="36"/>
 		<traceView traceDataRef="35"/>
 		<traceView traceDataRef="34"/>

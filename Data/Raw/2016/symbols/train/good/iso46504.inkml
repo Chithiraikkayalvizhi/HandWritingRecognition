@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">2011_KAIST_Data2_19_sub_71_46504</annotation>
 <trace id="13">
 5080 1535, 5106 1535, 5106 1509, 5106 1509, 5106 1509, 5106 1509, 5133 1509, 5133 1535, 5186 1535, 5212 1535
@@ -17,8 +17,8 @@
 5239 1720, 5212 1747, 5212 1773, 5212 1799, 5186 1826, 5186 1853, 5186 1905, 5186 1932, 5186 1958, 5186 2011, 5186 2038, 5212 2064
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="13"/>
 		<traceView traceDataRef="12"/>
 		<traceView traceDataRef="15"/>

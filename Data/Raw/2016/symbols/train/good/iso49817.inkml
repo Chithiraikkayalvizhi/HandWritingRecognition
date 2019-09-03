@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\lim</annotation>
 <annotation type="UI">2011_KAIST_Data2_6_sub_98_49817</annotation>
 <trace id="1">
 6880 5397, 6933 5397, 6958 5397, 6958 5397, 6958 5423, 6958 5423, 6986 5451, 6986 5503, 7011 5530, 7037 5582, 7037 5609, 7064 5662, 7064 5715, 7064 5741, 7064 5767, 7037 5795, 7037 5795
@@ -17,8 +17,8 @@
 6774 5186, 6747 5186, 6747 5186, 6747 5186, 6747 5186, 6774 5159, 6827 5159, 6853 5133, 6906 5133, 6958 5107, 7037 5107, 7090 5107
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

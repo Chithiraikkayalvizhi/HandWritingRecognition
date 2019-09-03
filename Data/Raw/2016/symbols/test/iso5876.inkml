@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">junk</annotation>
 <annotation type="UI">ISICAL_2014_F37_E30_5876</annotation>
 <trace id="9">
 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 550 237, 551 236, 554 236, 554 236, 554 236, 560 235, 567 235, 567 235, 567 235, 572 235, 572 235, 572 235, 575 235, 578 236, 578 236, 578 236, 577 236
@@ -17,8 +17,8 @@
 546 256, 546 256, 548 255, 548 255, 548 255, 548 255, 548 255, 548 255, 548 255, 555 254, 555 254, 555 254, 565 253, 565 253, 565 253, 571 252, 577 251
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="8"/>
 		<traceView traceDataRef="9"/>
 		<traceView traceDataRef="10"/>

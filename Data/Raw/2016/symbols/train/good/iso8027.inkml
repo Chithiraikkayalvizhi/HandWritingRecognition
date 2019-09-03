@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">89_danilo_8027</annotation>
 <trace id="9">
 762 71, 764 64, 758 64, 756 64, 743 67, 740 69, 738 70, 737 72, 736 74, 736 76, 737 78, 739 80, 741 82, 744 84, 746 87, 748 89, 750 91, 752 93, 752 94, 752 96, 751 97, 749 99, 746 100, 744 100, 741 100, 738 100, 736 99, 734 99, 732 97, 732 96, 731 95
@@ -14,8 +14,8 @@
 662 81, 662 80, 663 79, 664 78, 664 77, 664 76, 660 76, 658 78, 649 101, 651 102, 655 102, 659 102, 662 102, 665 101
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="9"/>
 		<traceView traceDataRef="8"/>
 		<traceView traceDataRef="7"/>

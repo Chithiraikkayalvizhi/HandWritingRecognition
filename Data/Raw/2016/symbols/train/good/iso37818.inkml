@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\pi</annotation>
 <annotation type="UI">2011_KME1_w8_e22_37818</annotation>
 <trace id="24">
 16981 2242, 16981 2242, 16981 2242, 16999 2242, 17022 2239, 17064 2239, 17114 2235, 17179 2235, 17251 2230, 17331 2225, 17414 2222, 17495 2218, 17568 2219, 17622 2218, 17666 2221, 17691 2227, 17691 2227
@@ -14,8 +14,8 @@
 17423 2403, 17423 2403, 17423 2403, 17411 2428, 17397 2449, 17387 2485, 17370 2524, 17355 2575, 17336 2627, 17321 2682, 17306 2732, 17295 2785, 17287 2827, 17287 2865, 17296 2893, 17316 2915, 17343 2927, 17384 2933, 17435 2933, 17497 2928, 17565 2922, 17633 2910, 17704 2899, 17770 2895, 17829 2887, 17875 2886
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="24"/>
 		<traceView traceDataRef="25"/>
 		<traceView traceDataRef="26"/>

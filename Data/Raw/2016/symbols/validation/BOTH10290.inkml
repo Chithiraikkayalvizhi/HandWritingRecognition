@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\geq</annotation>
 <annotation type="UI">2013_RIT_CROHME_rit_42140_4_10290</annotation>
 <trace id="1">
 408 179, 414 183, 419 184, 425 188, 434 192, 443 196, 453 200, 464 204, 477 208, 488 212, 501 217, 512 222, 523 226, 532 229, 540 231, 546 233, 550 235, 555 236, 558 236, 560 237, 560 238, 560 239, 560 240, 558 241, 555 242, 551 244, 546 247, 540 250, 535 254, 528 258, 522 263, 516 268, 509 273, 500 279, 492 284, 483 290, 474 295, 465 301, 456 307, 446 312, 438 317, 428 322, 420 326, 411 331, 404 334, 398 338, 394 339, 390 341, 387 343, 385 343
@@ -11,8 +11,8 @@
 434 357, 432 358, 429 358, 428 358, 426 358, 425 358, 424 358, 426 358, 429 358, 433 358, 438 358, 446 358, 453 358, 461 358, 468 358, 477 358, 486 357, 493 357, 501 355, 508 354, 516 353, 522 352, 528 352, 533 351, 540 349, 545 349, 549 348, 552 348, 555 348, 557 348, 558 347, 560 347
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="2"/>
 	</traceGroup>

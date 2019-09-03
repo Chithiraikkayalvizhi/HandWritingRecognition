@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">=</annotation>
 <annotation type="UI">81_hirata_7102</annotation>
 <trace id="11">
 334 279
@@ -14,8 +14,8 @@
 334 279, 334 278, 333 277, 334 276, 335 276, 336 276, 337 276, 338 276, 340 275, 342 275, 344 274, 346 274, 348 274, 350 273, 351 273, 352 273, 353 273, 354 273, 354 274, 353 275, 352 276
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="11"/>
 		<traceView traceDataRef="10"/>
 		<traceView traceDataRef="12"/>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\tan</annotation>
 <annotation type="UI">IVC_2014_F501_E19_6415</annotation>
 <trace id="46">
 424 283, 428 288, 429 292, 429 298, 429 304, 429 314, 430 317
@@ -17,8 +17,8 @@
 459 307, 461 312, 461 315, 461 318, 461 319, 460 320, 461 311, 462 309, 464 307, 465 306, 467 306, 469 307, 471 309, 472 311, 473 314, 473 317, 473 319, 472 321
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="46"/>
 		<traceView traceDataRef="47"/>
 		<traceView traceDataRef="48"/>

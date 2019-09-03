@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">=</annotation>
 <annotation type="UI">2013_IVC_CROHME_F117_E211_4001</annotation>
 <trace id="3">
 454 291, 466 291, 468 291, 469 291, 470 291, 471 291, 472 291
@@ -11,8 +11,8 @@
 441 272, 454 274, 456 274, 458 274, 460 274, 462 274, 465 274, 466 274, 468 274, 469 274, 470 274, 470 275
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="3"/>
 		<traceView traceDataRef="2"/>
 	</traceGroup>

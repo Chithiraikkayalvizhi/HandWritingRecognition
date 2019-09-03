@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\tan</annotation>
 <annotation type="UI">"200923-131-302.ink"_59286</annotation>
 <trace id="11">
 5494 3838, 5492 3827, 5508 3825, 5527 3818, 5555 3811, 5594 3807, 5641 3801, 5694 3794, 5751 3789, 5810 3788, 5863 3783, 5917 3781
@@ -17,8 +17,8 @@
 6064 3776, 6050 3777, 6034 3783, 6014 3790, 5990 3801, 5966 3818, 5940 3836, 5919 3864, 5897 3889, 5883 3921, 5870 3948, 5865 3975, 5866 3995, 5876 4011, 5890 4018, 5910 4017, 5931 4010, 5957 3992, 5984 3973, 6005 3945, 6029 3919, 6042 3890, 6056 3868, 6062 3844, 6069 3827, 6067 3816, 6065 3812, 6062 3814, 6057 3823, 6055 3837, 6051 3858, 6050 3881, 6050 3906, 6052 3933, 6050 3953, 6058 3974, 6062 3981
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="11"/>
 		<traceView traceDataRef="10"/>
 		<traceView traceDataRef="13"/>

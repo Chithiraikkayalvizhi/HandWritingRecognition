@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\tan</annotation>
 <annotation type="UI">2011_KAIST_Data1_0_sub_7_42480</annotation>
 <trace id="1">
 9445 3460, 9425 3451, 9425 3451, 9410 3445, 9413 3431, 9431 3424, 9455 3408, 9493 3393, 9535 3375, 9586 3356, 9650 3344, 9715 3336, 9778 3330, 9849 3335, 9912 3339
@@ -17,8 +17,8 @@
 10428 3448, 10402 3442, 10375 3443, 10345 3452, 10312 3469, 10278 3494, 10247 3525, 10223 3562, 10203 3598, 10194 3639, 10188 3675, 10194 3708, 10208 3733, 10232 3751, 10260 3758, 10297 3757, 10333 3748, 10372 3731, 10407 3707, 10441 3678, 10465 3648, 10490 3618, 10502 3591, 10512 3568, 10514 3549, 10514 3535, 10514 3535, 10512 3522, 10512 3522, 10512 3522, 10512 3522, 10514 3543, 10512 3558, 10523 3577, 10535 3598, 10550 3621, 10566 3644, 10584 3663, 10607 3683, 10625 3690, 10652 3696, 10676 3701, 10698 3695, 10725 3683
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

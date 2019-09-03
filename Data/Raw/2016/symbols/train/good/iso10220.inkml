@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">98_silas_10220</annotation>
 <trace id="19">
 257 166, 254 165, 255 175, 257 176, 260 176, 262 176, 264 175, 267 174, 269 173, 271 172, 272 171, 274 170, 274 169, 275 167, 275 166, 275 165, 274 163, 273 162, 272 161, 271 161, 268 160, 266 160, 263 160, 259 160, 256 160, 252 161
@@ -14,8 +14,8 @@
 318 157, 316 154, 303 167, 306 167, 308 167, 311 168, 314 169, 317 169, 320 170, 322 172, 324 173, 326 175, 327 176, 328 178, 328 179, 327 180, 326 181, 324 182, 321 183, 319 183, 316 183, 312 182, 310 181, 307 180, 305 179, 304 177
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="19"/>
 		<traceView traceDataRef="18"/>
 		<traceView traceDataRef="0"/>

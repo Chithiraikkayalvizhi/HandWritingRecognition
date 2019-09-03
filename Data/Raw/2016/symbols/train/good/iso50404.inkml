@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\tan</annotation>
 <annotation type="UI">2011_KAIST_Data2_9_sub_13_50404</annotation>
 <trace id="13">
 18124 1587, 18071 1508, 18045 1482, 18018 1455, 18045 1455, 18098 1455, 18177 1455, 18309 1455, 18468 1455, 18627 1455, 18813 1455, 18970 1482, 19103 1482, 19209 1482
@@ -17,8 +17,8 @@
 20744 1799, 20744 1852, 20717 1879, 20717 1931, 20691 1984, 20691 2064, 20691 2143, 20717 2196, 20744 2223, 20770 2249, 20770 2249, 20796 2249, 20823 2223, 20849 2196, 20876 2143, 20876 2116, 20929 2064, 20955 2011, 21008 1958, 21088 1905, 21141 1852, 21167 1826, 21220 1799, 21247 1772, 21247 1772, 21273 1746, 21300 1746, 21300 1772, 21325 1799, 21353 1826, 21353 1879, 21353 1931, 21378 1984, 21378 2064, 21406 2143, 21431 2196, 21457 2249, 21484 2275, 21510 2275, 21537 2302
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="13"/>
 		<traceView traceDataRef="15"/>
 		<traceView traceDataRef="14"/>

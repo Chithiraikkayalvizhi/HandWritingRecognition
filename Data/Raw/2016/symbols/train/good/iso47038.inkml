@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">F</annotation>
 <annotation type="UI">2011_KAIST_Data2_20_sub_63_47038</annotation>
 <trace id="3">
 10841 1696, 10834 1766, 10834 1822, 10841 1897, 10841 1987, 10852 2095, 10856 2208, 10865 2324, 10870 2434, 10877 2538, 10879 2633, 10883 2712, 10888 2775, 10888 2816, 10892 2834, 10892 2834, 10892 2834
@@ -14,8 +14,8 @@
 10617 2028, 10594 1985, 10590 1969, 10590 1951, 10597 1937, 10628 1924, 10667 1906, 10721 1890, 10784 1870, 10856 1852, 10935 1836, 11017 1820, 11100 1811, 11172 1804, 11242 1804, 11306 1813, 11346 1822
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="3"/>
 		<traceView traceDataRef="5"/>
 		<traceView traceDataRef="4"/>

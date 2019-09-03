@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">75_leo_6019</annotation>
 <trace id="15">
 876 114, 876 113, 874 110, 873 115, 886 125, 887 123, 889 120, 890 117, 891 115, 892 112, 891 110, 891 109, 889 107, 888 107, 886 107, 884 107, 881 108, 879 109, 877 110, 875 111, 874 113, 873 114, 872 115, 872 116
@@ -14,8 +14,8 @@
 909 110, 909 107, 901 118, 902 118, 903 119, 904 119, 906 120, 907 120, 909 121, 910 121, 911 122, 912 123, 912 124, 913 125, 912 126, 912 127, 911 129, 909 130, 908 131, 906 132, 904 133, 902 133, 900 133, 898 132, 896 132, 895 131, 895 130
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="15"/>
 		<traceView traceDataRef="14"/>
 		<traceView traceDataRef="16"/>

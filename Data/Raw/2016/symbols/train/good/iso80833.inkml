@@ -2,14 +2,14 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">COMMA</annotation>
 <annotation type="UI">MfrDB3124_80833</annotation>
 <trace id="16">
 711 215 303150, 711 218 303197, 711 222 303205, 709 229 303213, 708 235 303221, 708 239 303229, 707 243 303237, 706 246 303245, 706 248 303253
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="16"/>
 	</traceGroup>
 </traceGroup>

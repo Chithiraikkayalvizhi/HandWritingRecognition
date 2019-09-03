@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\lim</annotation>
 <annotation type="UI">MfrDB2036_74041</annotation>
 <trace id="1">
 102 265 99928860, 102 266 99928891, 103 266 99928907, 103 267 99928907, 103 270 99928922, 103 270 99928922, 103 271 99928953, 103 273 99928969, 103 275 99928969, 103 277 99928985, 103 278 99928985, 103 279 99929000, 103 281 99929000, 102 283 99929016, 101 285 99929016, 101 286 99929032, 101 288 99929032, 100 289 99929047, 100 290 99929063, 100 291 99929063, 100 292 99929078, 99 293 99929110, 98 291 99929203, 97 290 99929219
@@ -17,8 +17,8 @@
 103 245 99929532
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

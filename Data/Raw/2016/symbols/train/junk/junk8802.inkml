@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">junk</annotation>
 <annotation type="UI">2011_IVC_DEPART_F005_E048_8802</annotation>
 <trace id="1">
 8.77533 26.4628, 8.77533 26.4628, 8.78335 26.4508, 8.7994 26.4227, 8.83953 26.3826, 8.8957 26.3304, 8.94786 26.2542, 9.02009 26.182, 9.07626 26.0776, 9.12441 25.9653, 9.14447 25.9051, 9.14447 25.889, 9.13645 25.8931, 9.13244 25.9211, 9.1204 26.0094, 9.1204 26.1178, 9.13244 26.21, 9.13645 26.2903, 9.13645 26.3585, 9.14849 26.4026
@@ -14,8 +14,8 @@
 9.42936 26.0816, 9.42936 26.0816, 9.42936 26.0937, 9.4414 26.1499, 9.44541 26.21, 9.43739 26.2582, 9.42936 26.3063, 9.43337 26.3505, 9.43337 26.3786
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="2"/>

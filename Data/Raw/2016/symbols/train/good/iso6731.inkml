@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">R</annotation>
 <annotation type="UI">80_hirata_6731</annotation>
 <trace id="19">
 453 127, 452 126, 452 125, 453 124, 454 124, 455 123, 456 122, 458 121, 460 121, 462 120, 465 119, 468 119, 471 118, 473 118, 476 119, 477 120, 479 121, 480 122, 480 124, 480 126, 479 128, 478 131, 476 133, 474 136, 471 138, 468 141, 466 143, 463 145, 461 147, 458 148, 456 149, 455 150, 454 150, 453 150, 452 150, 453 149, 454 149, 455 149, 457 149, 459 149, 460 149, 463 150, 465 151, 467 151, 469 152, 471 153, 474 154, 476 155, 477 156, 479 157, 480 157, 481 158, 482 158, 482 159, 483 159, 483 160, 483 161
@@ -17,8 +17,8 @@
 455 133
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="19"/>
 		<traceView traceDataRef="18"/>
 		<traceView traceDataRef="17"/>

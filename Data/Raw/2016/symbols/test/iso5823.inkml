@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">=</annotation>
 <annotation type="UI">ISICAL_2014_F37_E28_5823</annotation>
 <trace id="7">
 408 211, 408 211, 408 211, 408 211, 408 211, 408 211, 410 210, 416 209, 416 209, 416 209, 423 208, 423 208, 423 208, 432 208, 432 208, 432 208, 440 208, 446 208
@@ -11,8 +11,8 @@
 405 196, 405 196, 405 196, 405 196, 405 196, 405 196, 405 196, 405 196, 405 196, 405 196, 405 196, 407 195, 407 195, 407 195, 412 194, 423 193, 423 193, 423 193, 432 192, 432 192, 432 192, 432 192, 440 192, 440 192, 446 192, 446 192, 448 192, 448 192, 448 192, 448 192, 448 192, 444 194
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="7"/>
 		<traceView traceDataRef="6"/>
 	</traceGroup>

@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">2011_KAIST_Data2_3_sub_13_48773</annotation>
 <trace id="1">
 3757 1310, 3784 1294, 3811 1294, 3841 1294, 3879 1291, 3924 1282, 3969 1280, 4019 1271
@@ -17,8 +17,8 @@
 3954 1741, 3954 1836, 3947 1883
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="1"/>
 		<traceView traceDataRef="0"/>
 		<traceView traceDataRef="3"/>

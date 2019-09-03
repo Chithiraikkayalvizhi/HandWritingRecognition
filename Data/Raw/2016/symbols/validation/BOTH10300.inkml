@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\theta</annotation>
 <annotation type="UI">2013_RIT_CROHME_rit_42145_1_10300</annotation>
 <trace id="3">
 689 173, 683 178, 679 187, 673 197, 669 207, 666 218, 664 227, 663 239, 662 251, 662 263, 664 274, 667 284, 672 292, 676 297, 682 301, 689 304, 695 305, 701 306, 707 306, 714 304, 719 299, 723 292, 730 275, 732 266, 735 258, 735 250, 736 241, 736 231, 736 221, 736 214, 736 207, 735 202, 733 197, 730 192, 728 188, 725 184, 722 180, 719 178, 715 175, 712 173, 708 172, 704 171, 701 171, 699 170, 696 170, 694 170, 693 170, 692 170, 691 171
@@ -11,8 +11,8 @@
 667 241, 672 241, 676 241, 680 241, 685 241, 690 241, 696 240, 701 240, 706 240, 710 240, 717 239, 720 239, 723 239, 726 239, 730 239, 735 239, 740 239, 745 239
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="3"/>
 		<traceView traceDataRef="4"/>
 	</traceGroup>

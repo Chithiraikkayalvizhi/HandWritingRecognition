@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\sin</annotation>
 <annotation type="UI">111_hirata_2364</annotation>
 <trace id="20">
 612 104, 612 104, 603 112, 603 113, 604 113, 605 114, 606 114, 608 114, 610 114, 611 114, 613 115, 615 115, 617 116, 618 116, 619 117, 620 118, 621 119, 621 120, 621 121, 621 122, 620 123, 619 124, 618 125, 617 126, 615 126, 614 126, 613 126, 612 126, 611 126, 610 126, 609 126, 608 126, 607 126, 606 125, 605 125, 604 124, 604 123, 605 122
@@ -17,8 +17,8 @@
 627 93, 627 92, 627 92
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="20"/>
 		<traceView traceDataRef="21"/>
 		<traceView traceDataRef="22"/>

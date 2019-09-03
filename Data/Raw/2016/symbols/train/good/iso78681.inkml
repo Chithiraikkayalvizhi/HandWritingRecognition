@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\leq</annotation>
 <annotation type="UI">MfrDB2965_78681</annotation>
 <trace id="15">
 483 333 416369, 483 334 416491, 482 335 416501, 480 337 416512, 477 339 416522, 474 341 416532, 471 344 416542, 467 346 416552, 465 348 416563, 462 350 416573, 461 352 416583, 459 353 416593, 458 354 416603, 457 354 416614, 456 355 416624, 454 356 416634, 451 357 416644, 450 358 416655, 447 359 416665, 446 360 416675, 444 361 416685, 443 361 416696, 443 362 416706
@@ -14,8 +14,8 @@
 443 362 416982, 444 362 417043, 445 362 417054, 447 362 417064, 451 362 417074, 455 362 417084, 461 362 417094, 468 362 417105, 477 362 417115, 486 360 417125, 495 360 417135, 501 360 417145, 503 359 417156, 502 359 417258
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="15"/>
 		<traceView traceDataRef="17"/>
 		<traceView traceDataRef="16"/>

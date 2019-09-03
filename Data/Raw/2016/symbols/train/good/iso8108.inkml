@@ -2,7 +2,7 @@
 <traceFormat>
 <channel name="X" type="decimal"/>
 <channel name="Y" type="decimal"/>
-</traceFormat><annotation type="truth"></annotation>
+</traceFormat><annotation type="truth">\cos</annotation>
 <annotation type="UI">89_leissi_8108</annotation>
 <trace id="9">
 640 131, 641 130, 640 128, 624 133, 623 134, 622 135, 622 136, 621 136, 621 137, 621 138, 622 138, 623 138, 624 138, 626 138, 628 138, 630 138, 632 138, 634 138, 636 138, 638 139, 640 140, 642 141, 643 142, 644 144, 645 146, 645 147, 645 149, 645 150, 645 152, 644 153, 643 155, 641 156, 639 157, 638 158, 636 158, 634 159, 632 159, 630 159, 628 159, 626 158, 624 158, 623 157, 622 155, 621 155, 620 154, 619 153, 619 152
@@ -14,8 +14,8 @@
 561 126, 563 126, 565 127, 565 126, 552 126, 548 128, 540 145, 540 148, 541 150, 543 152, 545 154, 548 156, 550 157, 553 157, 556 158, 559 158, 561 158, 563 158, 564 157, 565 157, 566 156
 </trace>
 <traceGroup>
-	<traceGroup xml:id="0">
-		<annotation type="truth"></annotation>
+	<traceGroup id="0">
+		<annotation type="truth"/>
 		<traceView traceDataRef="9"/>
 		<traceView traceDataRef="8"/>
 		<traceView traceDataRef="7"/>
