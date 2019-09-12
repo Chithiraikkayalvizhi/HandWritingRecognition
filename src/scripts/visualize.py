@@ -5,7 +5,7 @@ import inkmlParser as parser
 import os
 import math
 
-def visualize_trace_List(datalist):
+def visualize_trace_List(datalist, titleList = None):
     fig = plt.figure()
 
     box_size = math.ceil(math.sqrt(len(datalist)))
@@ -13,7 +13,8 @@ def visualize_trace_List(datalist):
         ax = fig.add_subplot(box_size,box_size,i+1)
         ax.set_aspect('equal')
         ax.axis('off')
-        #ax.set_title(goundtruth_list[i])
+        if(titleList is not None):
+            ax.set_title(titleList[i])
         plt.imshow(datalist[i], interpolation='nearest')
     
     plt.subplots_adjust(hspace=0.63)

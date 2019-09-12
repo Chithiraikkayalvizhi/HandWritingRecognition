@@ -9,12 +9,24 @@ import visualize
 import numpy as np
 
 def load_data_in_mongo():
+    # Training Data
+    load_data_in_mongo_from_root_dir('C:/github/Kayal_Capstone/HandWritingRecognition/Data/Raw/2016/symbols/train/junk')
+    load_data_in_mongo_from_root_dir('C:/github/Kayal_Capstone/HandWritingRecognition/Data/Raw/2016/symbols/train/good')
+    
+    #Test Data
+    load_data_in_mongo_from_root_dir('C:/github/Kayal_Capstone/HandWritingRecognition/Data/Raw/2016/symbols/test')
+
+    #Validation Data
+    load_data_in_mongo_from_root_dir('C:/github/Kayal_Capstone/HandWritingRecognition/Data/Raw/2016/symbols/validation')
+
+
+
+def load_data_in_mongo_from_root_dir(rootdir:str):
     client = MongoClient('localhost', 27017)
     db = client['handwrtingdata']
     symbols_dataset = db.get_collection(name = 'Symbols')
 
     image_size = 50
-    rootdir = 'C:/github/Kayal_Capstone/HandWritingRecognition/Data/Raw/2016/symbols/train/junk'
     current_dataset_type = 'train'
     #data_range = 18436
 
@@ -67,29 +79,40 @@ def display_data_in_mongo():
     if (len(trace_list) > 100): 
         visualize.visualize_trace_List(trace_list[:100])
 
-def get_data_from_db(datatype:str, skipJunk:bool=True):
+def get_dataset(datasetname:str, databasename = 'handwrtingdata'):
     client = MongoClient('localhost', 27017)
-    db = client['handwrtingdata']
-    symbols_dataset = db.get_collection(name = 'Symbols')
+    db = client[databasename]
+    return db.get_collection(name = datasetname)
 
+def get_traces_for_id_from_db(id:str):
+    symbols_dataset = get_dataset('Symbols')
+    query = {'_id': id}
+    results =  symbols_dataset.find(query, {"traces": 1 , "truth": 1, "_id": 1})
+    return pickle.loads(results[0]['traces'])
+    
+def get_data_from_db(datatype:str, skipJunk:bool=True):
+    symbols_dataset = get_dataset('Symbols')
     query = {'soft_delete' : False, "type": datatype}
 
     if(skipJunk):
         query['truth'] = {'$ne': 'junk'}
     
-    results = symbols_dataset.find(query, {"traces": 1 , "truth": 1, "_id": 0})
+    results = symbols_dataset.find(query, {"traces": 1 , "truth": 1, "_id": 1})
 
     trace_list = []
     truth_list = []
+    id_list = []
 
     for result in results:
         trace_list.append(pickle.loads(result['traces']))
         truth_list.append(result['truth'])
+        id_list.append(result['_id'])
 
     trace_list = np.array(trace_list)
     truth_list = np.array(truth_list)
+    id_list = np.array(id_list)
 
-    return trace_list, truth_list
+    return trace_list, truth_list, id_list
 
 
 def get_train_data_from_db(skipJunk:bool=True):
