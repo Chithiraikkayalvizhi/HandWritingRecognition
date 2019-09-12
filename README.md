@@ -23,7 +23,7 @@ In this project, we will explore the field of hand-written mathematical formula 
 
 
 
-**1.**** INTRODUCTION**
+**1. INTRODUCTION**
 
 Hand-written digit and alphabet detection have been a well-understood problem. With known solutions having human-like accuracy. However, there are not many mature systems that do well beyond the 10 digits and 26 alphabetic characters. The goal of this project is to develop a machine learning model to extend the existing hand-written recognition systems to include mathematical symbols. And be able to develop a system that could detect and solve mathematical formulae.
 
@@ -158,7 +158,7 @@ Like all machine learning projects, this project will also require good training
 
 Based on the existing literature, we&#39;ll break down the problem into two sub-tasks. First, Symbol recognition which will be a system that focuses solely on the recognition of individual symbols. This leg of the problem will take the strokes data for a single symbol from the entire formula as input and will classify the given symbol into one of the known symbols. Second, structure recognition which will be an independent system that takes the strokes data of an entire formula and segment the formula into multiple stroke data for its individual symbols. The structure recognition system will output an array of individual symbols in InkML format along with the relation between the symbols if applicable. This array of symbols will be fed to the symbol recognition system, and the symbols will be identified. The identified symbols, along with the relationships among the symbols, will be used to generate the formula in a known format like Latex. Higher priority will be given to the symbol recognition system as we can use simple heuristics to solve structure recognition. For example, simple equations can be segmented by looking for empty spaces between the individual symbols in the provided input data. We can iteratively improve the structure recognition system to expand the list of supported formula.
 
-**4.**** APPROACH**
+**4. APPROACH**
 
 We&#39;ll use an iterative approach to build the systems and subsystems. We&#39;ll start with a quick and trivial implementation. Evaluate the performance and make improvements as required. The focus of the project will not be in trying to implement niche machine learning algorithms but instead to leverage the framework to its fullest capacity and put together a system that would compete and/or exceed the baseline performances set previously.
 
