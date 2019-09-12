@@ -58,88 +58,50 @@ The problem to recognize handwriting has been a research topic for several decad
 **INKML** : The InkML format enables to make references between the digital ink of the expression, its segmentation into symbols, and its MathML representation. An example of an InkML file for the expression a \&lt; b / c is shown below. It contains 6 strokes for 5 symbols (two for the &#39;a&#39;, and one for each of the other symbols). Note that the traceGroup with identifier xml:id=&quot;8&quot; has references to the 2 corresponding strokes of the symbol &#39;a&#39;, as well as to the MathML part with identifier xml:id=&quot;A&quot;. Thus, the stroke segmentation of a symbol can be linked to its MathML representation.
 
 Example:
-
-\&lt;ink xmlns=&quot;http://www.w3.org/2003/InkML&quot;\&gt;
-
-\&lt;traceFormat\&gt;
-
-\&lt;channel name=&quot;X&quot; type=&quot;decimal&quot;/\&gt;
-
-\&lt;channel name=&quot;Y&quot; type=&quot;decimal&quot;/\&gt;
-
-\&lt;/traceFormat\&gt;
-
-\&lt;annotation type=&quot;writer&quot;\&gt;w123\&lt;/annotation\&gt;
-
-\&lt;annotation
-
-type=&quot;truth&quot;\&gt;$a\&lt;\frac{b}{c}$\&lt;/annotation\&gt;
-
-\&lt;annotation type=&quot;UI&quot;\&gt; 2011\_IVC\_DEPT\_F01\_E01
-
-\&lt;/annotation\&gt;
-
-\&lt;annotationXML type=&quot;truth&quot; encoding =
-
-&quot;Content-MathML&quot;\&gt;
-
-\&lt;math
-
-xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;\&gt;
-
-\&lt;mrow\&gt;
-
-\&lt;mi xml:id=&quot;A&quot;\&gt;a\&lt;/mi\&gt;
-
-\&lt;mrow\&gt;
-
-\&lt;mo xml:id=&quot;B&quot;\&gt;\&lt;\&lt;/mo\&gt;
-
-\&lt;mfrac xml:id=&quot;C&quot;\&gt;
-
-\&lt;mi xml:id=&quot;D&quot;\&gt;b\&lt;/mi\&gt;
-
-\&lt;mi xml:id=&quot;E&quot;\&gt;c\&lt;/mi\&gt;
-
-\&lt;/mfrac\&gt;
-
-\&lt;/mrow\&gt;
-
-\&lt;/mrow\&gt;
-
-\&lt;/math\&gt;
-
-\&lt;/annotationXML\&gt;
-
-\&lt;trace id=&quot;1&quot;\&gt;985 3317, ..., 1019 3340\&lt;/trace\&gt;
-
+```
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="writer">w123</annotation>
+<annotation
+type="truth">$a<\frac{b}{c}$</annotation>
+<annotation type="UI"> 2011_IVC_DEPT_F01_E01
+</annotation>
+<annotationXML type="truth" encoding =
+"Content-MathML">
+<math
+xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+<mi xml:id="A">a</mi>
+<mrow>
+<mo xml:id="B"><</mo>
+<mfrac xml:id="C">
+<mi xml:id="D">b</mi>
+<mi xml:id="E">c</mi>
+</mfrac>
+</mrow>
+</mrow>
+</math>
+</annotationXML>
+<trace id="1">985 3317, ..., 1019 3340</trace>
 ...
-
-\&lt;trace id=&quot;6&quot;\&gt;1123 3308, ..., 1127 3365\&lt;/trace\&gt;
-
-\&lt;traceGroup xml:id=&quot;7&quot;\&gt;
-
-\&lt;annotation type=&quot;truth&quot;\&gt;Ground
-
-truth\&lt;/annotation\&gt;
-
-\&lt;traceGroup xml:id=&quot;8&quot;\&gt;
-
-\&lt;annotation type=&quot;truth&quot;\&gt;a\&lt;/annotation\&gt;
-
-\&lt;annotationXML href=&quot;A&quot;/\&gt;
-
-\&lt;traceView traceDataRef=&quot;1&quot;/\&gt;
-
-\&lt;traceView traceDataRef=&quot;2&quot;/\&gt;
-
-\&lt;/traceGroup\&gt;
-
+<trace id="6">1123 3308, ..., 1127 3365</trace>
+<traceGroup xml:id="7">
+<annotation type="truth">Ground
+truth</annotation>
+<traceGroup xml:id="8">
+<annotation type="truth">a</annotation>
+<annotationXML href="A"/>
+<traceView traceDataRef="1"/>
+<traceView traceDataRef="2"/>
+</traceGroup>
 ...
+</traceGroup>
+</ink>
 
-\&lt;/traceGroup\&gt;
-
-\&lt;/ink\&gt;
+```
 
 **Tensorflow:** TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments.
 
@@ -224,28 +186,21 @@ XML namespace issue: Erroneous namespace value was provided to the root XML elem
 Redundant nesting: The \&lt;traceGroup\&gt; attribute had redundant nested elements. For easier processing, the redundant nested elements were flattened.
 
 Sample Nested element:
-
-\&lt;traceGroup\&gt;
-
- \&lt;traceGroup id=&quot;0&quot;\&gt;
-
-   \&lt;annotationtype=&quot;truth&quot;\&gt;\&lt;/annotation\&gt;
-
-   \&lt;traceView traceDataRef=&quot;13&quot;/\&gt;
-
- \&lt;/traceGroup\&gt;
-
-\&lt;/traceGroup\&gt;
-
-After Processing:
-
-\&lt;traceGroup id=&quot;0&quot;\&gt;
-
-   \&lt;annotationtype=&quot;truth&quot;\&gt;\&lt;/annotation\&gt;
-
-   \&lt;traceView traceDataRef=&quot;13&quot;/\&gt;
-
-\&lt;/traceGroup\&gt;
+```
+<traceGroup>
+ <traceGroup id="0">
+   <annotationtype="truth"></annotation>
+   <traceView traceDataRef="13"/>
+ </traceGroup>
+</traceGroup>
+```
+After Processing: 
+```
+<traceGroup id="0">
+   <annotationtype="truth"></annotation>
+   <traceView traceDataRef="13"/>
+</traceGroup>
+```
 
 **Data Staging:**
 
