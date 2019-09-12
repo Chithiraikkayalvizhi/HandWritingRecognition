@@ -355,7 +355,7 @@ Current segmentation implementation is trivial and assumes a linear structure of
 
 A live demo tool would be very useful in trying out more user input and test the performance on a dynamic test set. All the tests have been performed on a fixed test set. Due to the size and random selection of the test set, we assume it will be a good representation of real-world data. But an ideal test of the model would be a small tool that could be distributed to users and also establish a feedback loop to improve the system performance further.
 
-**10.**** REFERENCE**
+**10. REFERENCE**
 
 Mouchère, H., Viard-Gaudin, C., Zanibbi, R., &amp; Garain, U. (2016, October). ICFHR2016 CROHME: Competition on recognition of online handwritten mathematical expressions. In 2016 15th International Conference on Frontiers in Handwriting Recognition (ICFHR) (pp. 607-612). IEEE.
 
